@@ -29,9 +29,10 @@ module fplm2_16 (a, b, product);
     // Unpacking the exponenets
     assign Ea = a[14:10];
     assign Eb = b[14:10];
+    
     // Unpacking the Signs
-    assign Sa = a[9:0];
-    assign Sb = b[9:0];
+    assign Sa = a[15];
+    assign Sb = b[15];
 
     // Log approximation equals M if less than 0.5 and equals ... 
     // (1+M)/2 otherwise, Multiplexers used for this process
