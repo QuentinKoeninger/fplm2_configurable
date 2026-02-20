@@ -9,12 +9,12 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/qkoen/Desktop/ShaResearch/SV
+Z0 dC:/Users/qkoen/Desktop/Github/fplm2_configurable/sv
 T_opt
-!s110 1771430819
-VezPfUfg3VOGShM?1KhzEg1
+!s110 1771606476
+V[<I3B:]6LJ[4S^DN_oPV`1
 04 8 4 work tb_fplm2 fast 0
-=1-ac74b186c324-6995e3a2-3c8-6ed4
+=1-ac74b186c324-699891cb-3cb-107a8
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
@@ -22,25 +22,25 @@ n@_opt
 OL;O;2021.3;73
 vfplm2_16
 Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1771430818
+Z3 !s110 1771606475
 !i10b 1
-!s100 RVS>eB[Rd:M`P4I=Qd8OS2
-IoN1e^:zRaoB?JKJj^Qzb?3
+!s100 =HE:dz>SB5D8CbT:Di>;k3
+IS3N9V2Z:J4`NH7DHAN=N^0
 S1
 R0
-w1771430697
+w1771606439
 8fplm2.sv
 Ffplm2.sv
 !i122 0
-L0 6 62
+L0 6 37
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z6 !s108 1771430818.000000
-Z7 !s107 tb_fplm2.sv|fplm2MpAdd.sv|fplm2ExpAdd.sv|fplm2.sv|
-Z8 !s90 -lint|fplm2.sv|fplm2ExpAdd.sv|fplm2MpAdd.sv|tb_fplm2.sv|
+Z6 !s108 1771606475.000000
+Z7 !s107 tb_fplm2.sv|mul_fplm2.sv|fplm2MpAdd.sv|fplm2ExpAdd.sv|fplm2.sv|
+Z8 !s90 -lint|fplm2.sv|fplm2ExpAdd.sv|fplm2MpAdd.sv|mul_fplm2.sv|tb_fplm2.sv|
 !i113 0
 Z9 o-lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
@@ -94,15 +94,39 @@ R8
 R9
 R1
 nfplm2@mp@add
+vmul_fplm2_16
+R2
+R3
+!i10b 1
+!s100 N7=lBLLh7k9XKA=GWFh;F3
+IB7;MgjC7ZCE5oYQhHOcWN2
+S1
+R0
+w1771606437
+8mul_fplm2.sv
+Fmul_fplm2.sv
+!i122 0
+L0 6 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
 vtb_fplm2
 R2
 R3
 !i10b 1
-!s100 R4E>mM]GXN`RC3ck?h9UT1
-Inl9_8O3W0CV62VE9ie]RX2
+!s100 ^FmI]22mP7kIU^j<3MJl>0
+I_a4l;MfHI5E97<3GgCO??3
 S1
 R0
-w1771430812
+w1771606470
 8tb_fplm2.sv
 Ftb_fplm2.sv
 !i122 0

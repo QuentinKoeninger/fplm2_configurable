@@ -1,18 +1,19 @@
 # do fplm2.do
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 10:06:58 on Feb 18,2026
-# vlog -lint fplm2.sv fplm2ExpAdd.sv fplm2MpAdd.sv tb_fplm2.sv 
+# Start time: 10:54:35 on Feb 20,2026
+# vlog -lint fplm2.sv fplm2ExpAdd.sv fplm2MpAdd.sv mul_fplm2.sv tb_fplm2.sv 
 # -- Compiling module fplm2_16
 # -- Compiling module fplm2ExpAdd
 # -- Compiling module fplm2MpAdd
+# -- Compiling module mul_fplm2_16
 # -- Compiling module tb_fplm2
 # 
 # Top level modules:
 # 	tb_fplm2
-# End time: 10:06:58 on Feb 18,2026, Elapsed time: 0:00:00
+# End time: 10:54:35 on Feb 20,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb_fplm2 
-# Start time: 10:06:58 on Feb 18,2026
+# Start time: 10:54:35 on Feb 20,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE-64 2021.3 Jul 13 2021
 # //
@@ -29,6 +30,7 @@
 # //
 # Loading sv_std.std
 # Loading work.tb_fplm2(fast)
+# Loading work.mul_fplm2_16(fast)
 # Loading work.fplm2_16(fast)
 # Loading work.fplm2MpAdd(fast)
 # Loading work.fplm2ExpAdd(fast)
@@ -36,5 +38,5 @@
 #    Time: 20 ns  Iteration: 0  Instance: /tb_fplm2
 # Break in Module tb_fplm2 at tb_fplm2.sv line 31
 # Stopped at tb_fplm2.sv line 31
-# End time: 10:07:00 on Feb 18,2026, Elapsed time: 0:00:02
+# End time: 10:54:37 on Feb 20,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

@@ -11,7 +11,7 @@ module tb_fplm2;
     assign b = 16'h4000;
     assign expected = 16'h4300;
 
-    fplm2_16 fplm2(.a, .b, .product);
+    mul_fplm2_16 fplm2(.a, .b, .product);
 
     initial 
      begin
