@@ -15,7 +15,7 @@ module mul_fplm2_16 (a, b, product);
     logic                   Pzero;          // Is the product zero  
 
     // Determine if Product is Zero, =1 if product should be zero
-    assign Pzero = ~(|a) | ~(|b);              
+    assign Pzero = ~(|a[14:0]) | ~(|b[14:0]);              
 
     // Unpacking the Mantissa
     assign Ma = a[9:0];
@@ -36,6 +36,7 @@ module mul_fplm2_16 (a, b, product);
     assign Sp = Sa ^ Sb;
 
     // Packing of the product, if either input is zero product becomes zero
-    assign product = Pzero ? 16'b0 : {Sp, Ep, Mp};
+    //assign product = Pzero ? {Sp, 15'b0} : {Sp, Ep, Mp};
+    assign product = {Sp, (Pzero ? 15'b0 : {Ep, Mp})};
 
 endmodule
