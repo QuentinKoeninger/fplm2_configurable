@@ -8,7 +8,7 @@ module unpack (a, Sa, Ea, Ma, aQNAN, aSNAN, aZero, aInf, aSub);
     output logic            Sa, aQNAN, aSNAN;
     output logic            aInf, aSub, aZero;
 
-    logic                   aExpMax;
+    logic                   aExpMax, overflow_a;
 
     assign {Sa, Ea, Ma} = a;
 
