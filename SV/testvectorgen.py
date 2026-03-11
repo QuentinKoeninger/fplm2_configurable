@@ -22,7 +22,7 @@ def generate_vector_file(mul1, mul2, prod):
 # -----------------------------
 # FPLM-2: Approximate floating-point multiplication (Method-2)
 # -----------------------------
-def approx_mul_fplm2(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
+def approx_mul_fplm2(a: torch.Tensor, b: torch.Tensor, z) -> torch.Tensor:
     sign = torch.sign(a) * torch.sign(b)
     aa = a.abs().clamp_min(torch.finfo(torch.float32).tiny)
     bb = b.abs().clamp_min(torch.finfo(torch.float32).tiny)
@@ -34,8 +34,8 @@ def approx_mul_fplm2(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
     x_a = M_a - 1.0
     x_b = M_b - 1.0
 
-    bXa = torch.where(x_a < 0.5, x_a, 0.5 * (1.0 + x_a))
-    bXb = torch.where(x_b < 0.5, x_b, 0.5 * (1.0 + x_b))
+    bXa = torch.where(x_a < 0.5, x_a, 0.5 * (1.0 + x_a) - z * torch.fmod(x_a, 2**(-9)))
+    bXb = torch.where(x_b < 0.5, x_b, 0.5 * (1.0 + x_b) - z * torch.fmod(x_b, 2**(-9)))
 
     s = bXa + bXb
     carry = (s >= 1.0).to(e_a.dtype)
@@ -52,11 +52,11 @@ if __name__ == "__main__":
     a = torch.normal(mean=0.0, std=150.0, size=(1003,1))
     b = torch.normal(mean=0.0, std=150.0, size=(1003,1))
 
-    a=a.to(dtype=torch.float32)
-    b=b.to(dtype=torch.float32)
+    a=a.to(dtype=torch.float16)
+    b=b.to(dtype=torch.float16)
 
     print("\nGetting Results...")
-    fplm2_result = approx_mul_fplm2(a, b)
+    fplm2_result = approx_mul_fplm2(a, b, 1)
 
     print("Generating .tv file...")
     generate_vector_file(a, b, fplm2_result)

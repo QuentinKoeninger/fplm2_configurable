@@ -1,1 +1,3011 @@
-Result: 4300, Expected: 4300
+fplm : a=5c26 b=59eb
+PASS: got=7a11 expected=7a11 base=7a23
+------------
+fplm : a=5997 b=5964
+PASS: got=76fb expected=76fb base=7788
+------------
+fplm : a=5449 b=575e
+PASS: got=6ff8 expected=6ff8 base=6fe4
+------------
+fplm : a=55fd b=586d
+PASS: got=726a expected=726a base=72a0
+------------
+fplm : a=5a96 b=487b
+PASS: got=67c6 expected=67c6 base=6761
+------------
+fplm : a=d8c3 b=d223
+PASS: got=6fd4 expected=6fd4 base=6f4e
+------------
+fplm : a=ca61 b=545c
+PASS: got=e38c expected=e38c base=e2f4
+------------
+fplm : a=d4bc b=4fea
+PASS: got=e8b1 expected=e8b1 base=e8af
+------------
+fplm : a=5aac b=5869
+PASS: got=77bf expected=77bf base=775b
+------------
+fplm : a=d18c b=50b9
+PASS: got=e645 expected=e645 base=e68d
+------------
+fplm : a=d83a b=d6ac
+PASS: got=7390 expected=7390 base=730d
+------------
+fplm : a=d6ee b=d705
+FAIL: got=71f9 expected=71f8 base=7215
+------------
+fplm : a=5898 b=55ca
+PASS: got=7262 expected=7262 base=72a6
+------------
+fplm : a=d53a b=5c59
+PASS: got=f593 expected=f593 base=f5ae
+------------
+fplm : a=525a b=da17
+PASS: got=f138 expected=f138 base=f0d6
+------------
+fplm : a=d059 b=5be4
+PASS: got=f04b expected=f04b base=f04a
+------------
+fplm : a=d6cd b=c829
+FAIL: got=638f expected=638e base=6313
+------------
+fplm : a=59a1 b=55a5
+PASS: got=7346 expected=7346 base=73f1
+------------
+fplm : a=5425 b=55c4
+PASS: got=6de9 expected=6de9 base=6df9
+------------
+fplm : a=dca3 b=5047
+PASS: got=f0ea expected=f0ea base=f0f5
+------------
+fplm : a=d52f b=4d1f
+PASS: got=e64e expected=e64e base=e6a3
+------------
+fplm : a=dc5e b=5479
+PASS: got=f4d7 expected=f4d7 base=f4e2
+------------
+fplm : a=dab3 b=daf9
+FAIL: got=79d5 expected=79d4 base=79d7
+------------
+fplm : a=d9e8 b=d9cd
+PASS: got=77b5 expected=77b5 base=7848
+------------
+fplm : a=cce9 b=cf93
+PASS: got=60b2 expected=60b2 base=60a6
+------------
+fplm : a=cc11 b=dc2a
+PASS: got=6c3b expected=6c3b base=6c3c
+------------
+fplm : a=da41 b=dceb
+FAIL: got=7c0b expected=7c00 base=7bb0
+------------
+fplm : a=d6dc b=5b3c
+PASS: got=f68c expected=f68c base=f634
+------------
+fplm : a=5b9b b=cd4b
+PASS: got=ed18 expected=ed18 base=ed08
+------------
+fplm : a=50f9 b=5728
+PASS: got=6c8d expected=6c8d base=6c73
+------------
+fplm : a=5553 b=d577
+PASS: got=eeca expected=eeca base=ef46
+------------
+fplm : a=d6e7 b=d3f8
+FAIL: got=6eef expected=6eee base=6ee0
+------------
+fplm : a=5e08 b=d724
+PASS: got=f996 expected=f996 base=f962
+------------
+fplm : a=561b b=5bf6
+PASS: got=7688 expected=7688 base=7613
+------------
+fplm : a=d161 b=dd92
+PASS: got=72f3 expected=72f3 base=737e
+------------
+fplm : a=5855 b=da39
+FAIL: got=f771 expected=f770 base=f6bd
+------------
+fplm : a=4ce8 b=47af
+FAIL: got=58bf expected=58be base=58b6
+------------
+fplm : a=5949 b=d8cc
+PASS: got=f615 expected=f615 base=f657
+------------
+fplm : a=d71f b=582f
+PASS: got=f3be expected=f3be base=f373
+------------
+fplm : a=d938 b=5e5b
+FAIL: got=fc65 expected=fc00 base=fc25
+------------
+fplm : a=ccf1 b=5242
+PASS: got=e412 expected=e412 base=e3bb
+------------
+fplm : a=d210 b=d8f2
+PASS: got=6ffa expected=6ffa base=6f7f
+------------
+fplm : a=d97a b=5628
+PASS: got=f48e expected=f48e base=f437
+------------
+fplm : a=d92a b=d63c
+PASS: got=7448 expected=7448 base=7406
+------------
+fplm : a=d38f b=d913
+PASS: got=70da expected=70da base=70cb
+------------
+fplm : a=5451 b=daec
+PASS: got=f3c7 expected=f3c7 base=f378
+------------
+fplm : a=d8ab b=4eda
+PASS: got=ec18 expected=ec18 base=ebff
+------------
+fplm : a=d4fc b=4e3f
+FAIL: got=e81b expected=e81a base=e7c9
+------------
+fplm : a=5c69 b=d964
+PASS: got=f9cd expected=f9cd base=f9f2
+------------
+fplm : a=5708 b=d84a
+PASS: got=f3ce expected=f3ce base=f38a
+------------
+fplm : a=da25 b=d8ab
+FAIL: got=77bd expected=77bc base=772c
+------------
+fplm : a=5588 b=d685
+PASS: got=f0ca expected=f0ca base=f082
+------------
+fplm : a=4de2 b=5173
+PASS: got=6355 expected=6355 base=6402
+------------
+fplm : a=d857 b=d4e7
+PASS: got=713e expected=713e base=7152
+------------
+fplm : a=298d b=5977
+PASS: got=4704 expected=4704 base=4795
+------------
+fplm : a=d625 b=5a68
+PASS: got=f546 expected=f546 base=f4ec
+------------
+fplm : a=d93e b=d56a
+PASS: got=72a8 expected=72a8 base=7318
+------------
+fplm : a=54db b=5e36
+PASS: got=77f6 expected=77f6 base=778a
+------------
+fplm : a=cfea b=4fa9
+FAIL: got=e349 expected=e348 base=e394
+------------
+fplm : a=d82e b=d815
+PASS: got=7443 expected=7443 base=7444
+------------
+fplm : a=d9ad b=d744
+PASS: got=754f expected=754f base=7528
+------------
+fplm : a=d6cb b=5b04
+FAIL: got=f5e7 expected=f5e6 base=f5f5
+------------
+fplm : a=db24 b=4ef0
+PASS: got=ee8a expected=ee8a base=ee31
+------------
+fplm : a=d50b b=5439
+PASS: got=ed44 expected=ed44 base=ed53
+------------
+fplm : a=d467 b=5885
+PASS: got=f0ec expected=f0ec base=f0f9
+------------
+fplm : a=48fd b=d454
+PASS: got=e151 expected=e151 base=e166
+------------
+fplm : a=d63f b=db34
+FAIL: got=75b9 expected=75b8 base=75a0
+------------
+fplm : a=d89a b=5c0b
+PASS: got=f8a5 expected=f8a5 base=f8a7
+------------
+fplm : a=5be4 b=d415
+PASS: got=f407 expected=f407 base=f407
+------------
+fplm : a=43da b=5c3a
+PASS: got=6427 expected=6427 base=6426
+------------
+fplm : a=d372 b=560d
+FAIL: got=edbf expected=edbe base=eda2
+------------
+fplm : a=5502 b=583c
+PASS: got=713e expected=713e base=714d
+------------
+fplm : a=5cd3 b=5970
+PASS: got=7a43 expected=7a43 base=7a8f
+------------
+fplm : a=4fd8 b=d524
+PASS: got=e910 expected=e910 base=e90a
+------------
+fplm : a=d178 b=d7e4
+PASS: got=6d6a expected=6d6a base=6d65
+------------
+fplm : a=d195 b=d89c
+PASS: got=6e31 expected=6e31 base=6e6f
+------------
+fplm : a=dacd b=52e2
+FAIL: got=f1d7 expected=f1d6 base=f1da
+------------
+fplm : a=59f8 b=5ac7
+FAIL: got=795b expected=795a base=790e
+------------
+fplm : a=bf38 b=460e
+PASS: got=c9a3 expected=c9a3 base=c977
+------------
+fplm : a=56b4 b=d646
+PASS: got=f17d expected=f17d base=f142
+------------
+fplm : a=d6df b=53af
+FAIL: got=eec6 expected=eec5 base=ee99
+------------
+fplm : a=cf80 b=d95a
+PASS: got=6d1a expected=6d1a base=6d04
+------------
+fplm : a=5655 b=dc43
+FAIL: got=f76d expected=f76c base=f6bf
+------------
+fplm : a=d4c3 b=c650
+PASS: got=5feb expected=5feb base=5f84
+------------
+fplm : a=da3a b=5c01
+PASS: got=fb1e expected=fb1e base=fa3c
+------------
+fplm : a=d801 b=58f9
+PASS: got=f4fa expected=f4fa base=f4fa
+------------
+fplm : a=5995 b=5481
+PASS: got=7216 expected=7216 base=7249
+------------
+fplm : a=4ea7 b=5644
+FAIL: got=6975 expected=6974 base=6936
+------------
+fplm : a=d532 b=5758
+PASS: got=f0de expected=f0de base=f0c5
+------------
+fplm : a=da43 b=5a7a
+PASS: got=f95e expected=f95e base=f912
+------------
+fplm : a=540b b=55ca
+PASS: got=6dd5 expected=6dd5 base=6dda
+------------
+fplm : a=d9f5 b=d7c4
+PASS: got=75d7 expected=75d7 base=75c8
+------------
+fplm : a=c1b3 b=4e9d
+FAIL: got=d501 expected=d500 base=d4b6
+------------
+fplm : a=56b3 b=587c
+FAIL: got=73d5 expected=73d4 base=7383
+------------
+fplm : a=54d0 b=d66f
+FAIL: got=f007 expected=f006 base=efbe
+------------
+fplm : a=d892 b=d9c8
+PASS: got=765a expected=765a base=769b
+------------
+fplm : a=c89a b=5638
+PASS: got=e3b6 expected=e3b6 base=e327
+------------
+fplm : a=d641 b=4c41
+FAIL: got=e761 expected=e760 base=e6a7
+------------
+fplm : a=5ac9 b=5549
+FAIL: got=74ad expected=74ac base=747c
+------------
+fplm : a=58b1 b=57b8
+PASS: got=748d expected=748d base=7487
+------------
+fplm : a=d1de b=4c95
+PASS: got=e273 expected=e273 base=e2b9
+------------
+fplm : a=4914 b=d007
+PASS: got=dd1b expected=dd1b base=dd1d
+------------
+fplm : a=d5ab b=51bc
+PASS: got=eb67 expected=eb67 base=ec10
+------------
+fplm : a=d0ca b=5a5f
+FAIL: got=eff9 expected=eff8 base=efa1
+------------
+fplm : a=d7e3 b=dc01
+PASS: got=77f2 expected=77f2 base=77e5
+------------
+fplm : a=4afd b=d97a
+PASS: got=e8f8 expected=e8f8 base=e8c9
+------------
+fplm : a=da46 b=d710
+PASS: got=75ab expected=75ab base=758a
+------------
+fplm : a=5884 b=d02b
+PASS: got=ecaf expected=ecaf base=ecb5
+------------
+fplm : a=d85f b=ccf9
+PASS: got=6958 expected=6958 base=696f
+------------
+fplm : a=d51e b=5823
+PASS: got=f141 expected=f141 base=f14b
+------------
+fplm : a=d8bd b=5468
+PASS: got=f125 expected=f125 base=f138
+------------
+fplm : a=d042 b=450b
+PASS: got=d94d expected=d94d base=d95e
+------------
+fplm : a=d744 b=d847
+PASS: got=73e9 expected=73e9 base=73c5
+------------
+fplm : a=5924 b=5ad8
+PASS: got=7890 expected=7890 base=7866
+------------
+fplm : a=d695 b=551f
+FAIL: got=f069 expected=f068 base=f037
+------------
+fplm : a=d62e b=4e5f
+PASS: got=e946 expected=e946 base=e8ec
+------------
+fplm : a=d870 b=57fe
+PASS: got=f46f expected=f46f base=f46f
+------------
+fplm : a=d931 b=dbb6
+PASS: got=790c expected=790c base=7901
+------------
+fplm : a=d975 b=db1b
+PASS: got=7902 expected=7902 base=78d9
+------------
+fplm : a=d908 b=5413
+PASS: got=f11b expected=f11b base=f120
+------------
+fplm : a=5cd6 b=54a9
+PASS: got=757f expected=757f base=75a2
+------------
+fplm : a=5c8c b=5868
+PASS: got=78f4 expected=78f4 base=7902
+------------
+fplm : a=d982 b=5a48
+PASS: got=f8a6 expected=f8a6 base=f853
+------------
+fplm : a=d9c2 b=5abf
+FAIL: got=f921 expected=f920 base=f8db
+------------
+fplm : a=56bd b=d074
+PASS: got=ebd2 expected=ebd2 base=eb80
+------------
+fplm : a=5590 b=5cd7
+PASS: got=7667 expected=7667 base=76bb
+------------
+fplm : a=c849 b=554b
+PASS: got=e194 expected=e194 base=e1ac
+------------
+fplm : a=d4e6 b=429b
+FAIL: got=dc33 expected=dc32 base=dc0b
+------------
+fplm : a=50ec b=5b1f
+FAIL: got=707b expected=707a base=7062
+------------
+fplm : a=d432 b=5418
+PASS: got=ec4a expected=ec4a base=ec4b
+------------
+fplm : a=ccbe b=5bfc
+PASS: got=ecbc expected=ecbc base=ecbc
+------------
+fplm : a=5a63 b=588b
+PASS: got=77bc expected=77bc base=7741
+------------
+fplm : a=d8b8 b=c98b
+PASS: got=6643 expected=6643 base=668a
+------------
+fplm : a=57d9 b=d3e8
+PASS: got=ef60 expected=ef60 base=efc1
+------------
+fplm : a=d83f b=d812
+PASS: got=7451 expected=7451 base=7452
+------------
+fplm : a=cb5f b=ca3b
+FAIL: got=59cc expected=59cb base=59be
+------------
+fplm : a=5d23 b=d7a3
+PASS: got=f8f4 expected=f8f4 base=f8e7
+------------
+fplm : a=50f3 b=549a
+PASS: got=698d expected=698d base=69b2
+------------
+fplm : a=cf50 b=5822
+PASS: got=ebca expected=ebca base=eb8e
+------------
+fplm : a=d352 b=d7c9
+FAIL: got=6f0d expected=6f0c base=6f20
+------------
+fplm : a=58c5 b=cf13
+PASS: got=ec4e expected=ec4e base=ec38
+------------
+fplm : a=d90c b=d837
+PASS: got=7543 expected=7543 base=7551
+------------
+fplm : a=d678 b=c8c2
+PASS: got=63fe expected=63fe base=63b2
+------------
+fplm : a=5bfd b=51a3
+FAIL: got=71a1 expected=71a0 base=71a1
+------------
+fplm : a=563a b=5952
+PASS: got=746f expected=746f base=7424
+------------
+fplm : a=596f b=58f6
+PASS: got=7665 expected=7665 base=76bd
+------------
+fplm : a=4db4 b=5653
+FAIL: got=68dd expected=68dc base=6882
+------------
+fplm : a=da28 b=547d
+PASS: got=f391 expected=f391 base=f2e8
+------------
+fplm : a=50da b=d868
+PASS: got=ed42 expected=ed42 base=ed58
+------------
+fplm : a=54c6 b=d680
+PASS: got=f006 expected=f006 base=efc2
+------------
+fplm : a=5425 b=4ce9
+PASS: got=650e expected=650e base=6516
+------------
+fplm : a=5cc1 b=d03a
+PASS: got=f0fb expected=f0fb base=f106
+------------
+fplm : a=d71a b=d1ac
+PASS: got=6d39 expected=6d39 base=6d09
+------------
+fplm : a=5548 b=cde7
+PASS: got=e72f expected=e72f base=e7cb
+------------
+fplm : a=d6d6 b=dc01
+PASS: got=776c expected=776c base=76d8
+------------
+fplm : a=580d b=d9d1
+PASS: got=f5de expected=f5de base=f5e4
+------------
+fplm : a=dc7c b=d0cd
+PASS: got=7149 expected=7149 base=7162
+------------
+fplm : a=4d18 b=d921
+PASS: got=ea39 expected=ea39 base=ea88
+------------
+fplm : a=dc40 b=dbe9
+FAIL: got=7c34 expected=7c00 base=7c34
+------------
+fplm : a=d50c b=d432
+PASS: got=6d3e expected=6d3e base=6d4b
+------------
+fplm : a=5bae b=d81e
+PASS: got=f7f5 expected=f7f5 base=f7e8
+------------
+fplm : a=d081 b=518a
+PASS: got=e60b expected=e60b base=e63d
+------------
+fplm : a=5a94 b=520c
+PASS: got=7150 expected=7150 base=70f9
+------------
+fplm : a=52df b=5cd2
+FAIL: got=7441 expected=7440 base=7424
+------------
+fplm : a=d4a4 b=d4bd
+PASS: got=6d61 expected=6d61 base=6d7f
+------------
+fplm : a=552b b=55b1
+PASS: got=6edc expected=6edc base=6f5a
+------------
+fplm : a=4805 b=dfa4
+PASS: got=ebd7 expected=ebd7 base=ebae
+------------
+fplm : a=d8f3 b=d483
+PASS: got=7176 expected=7176 base=7195
+------------
+fplm : a=5669 b=543f
+FAIL: got=6f73 expected=6f72 base=6ece
+------------
+fplm : a=542f b=cf5d
+FAIL: got=e7dd expected=e7dc base=e7b4
+------------
+fplm : a=da78 b=5e2c
+FAIL: got=fd52 expected=fc00 base=fcfe
+------------
+fplm : a=599a b=5851
+PASS: got=75eb expected=75eb base=760b
+------------
+fplm : a=5c85 b=538a
+PASS: got=744a expected=744a base=7442
+------------
+fplm : a=ddb6 b=d870
+PASS: got=7a26 expected=7a26 base=7a56
+------------
+fplm : a=da02 b=cfd6
+PASS: got=6dec expected=6dec base=6de2
+------------
+fplm : a=54ef b=d9a5
+PASS: got=f294 expected=f294 base=f2f6
+------------
+fplm : a=59f7 b=d952
+PASS: got=f749 expected=f749 base=f7ef
+------------
+fplm : a=5578 b=bc6d
+PASS: got=d5e5 expected=d5e5 base=d60d
+------------
+fplm : a=d72a b=55ab
+PASS: got=f140 expected=f140 base=f113
+------------
+fplm : a=d5b2 b=d0e7
+PASS: got=6a99 expected=6a99 base=6afb
+------------
+fplm : a=d400 b=d0b7
+PASS: got=68b7 expected=68b7 base=68b7
+------------
+fplm : a=5b98 b=d41a
+PASS: got=f3e6 expected=f3e6 base=f3c9
+------------
+fplm : a=db64 b=5b6a
+PASS: got=fae7 expected=fae7 base=fad9
+------------
+fplm : a=5883 b=5465
+PASS: got=70e8 expected=70e8 base=70f5
+------------
+fplm : a=d8e4 b=cede
+PASS: got=6c53 expected=6c53 base=6c33
+------------
+fplm : a=5717 b=d158
+FAIL: got=ece3 expected=ece2 base=ecbc
+------------
+fplm : a=ce83 b=4eb5
+FAIL: got=e19b expected=e19a base=e176
+------------
+fplm : a=d7d0 b=dc36
+PASS: got=781e expected=781e base=781d
+------------
+fplm : a=5b86 b=bcd6
+PASS: got=dc99 expected=dc99 base=dc8c
+------------
+fplm : a=d99d b=c01c
+PASS: got=5db9 expected=5db9 base=5dc4
+------------
+fplm : a=564b b=574f
+FAIL: got=71cc expected=71cb base=71c0
+------------
+fplm : a=d87f b=db8a
+PASS: got=7844 expected=7844 base=783d
+------------
+fplm : a=dc47 b=d81e
+PASS: got=7865 expected=7865 base=7867
+------------
+fplm : a=ccd9 b=5a72
+PASS: got=ec12 expected=ec12 base=ebd0
+------------
+fplm : a=50b3 b=5be8
+PASS: got=70a7 expected=70a7 base=70a5
+------------
+fplm : a=4f61 b=589e
+PASS: got=6c4e expected=6c4e base=6c42
+------------
+fplm : a=da78 b=5545
+PASS: got=f481 expected=f481 base=f443
+------------
+fplm : a=daa0 b=5298
+PASS: got=f19c expected=f19c base=f176
+------------
+fplm : a=5668 b=4d02
+PASS: got=6836 expected=6836 base=6803
+------------
+fplm : a=5715 b=dbae
+FAIL: got=f6e1 expected=f6e0 base=f6cc
+------------
+fplm : a=57bd b=5475
+FAIL: got=7053 expected=7052 base=7050
+------------
+fplm : a=5b09 b=5418
+PASS: got=739c expected=739c base=7333
+------------
+fplm : a=5696 b=d649
+FAIL: got=f16f expected=f16e base=f12d
+------------
+fplm : a=5b8b b=c97a
+FAIL: got=e93f expected=e93e base=e92a
+------------
+fplm : a=d4b5 b=5824
+PASS: got=f0d9 expected=f0d9 base=f0df
+------------
+fplm : a=42e2 b=d66c
+PASS: got=dda7 expected=dda7 base=dd86
+------------
+fplm : a=50b5 b=da6b
+PASS: got=efea expected=efea base=ef8d
+------------
+fplm : a=4781 b=cab4
+PASS: got=d69a expected=d69a base=d64a
+------------
+fplm : a=56cb b=59a8
+FAIL: got=750d expected=750c base=74ce
+------------
+fplm : a=5473 b=c62c
+PASS: got=df89 expected=df89 base=dedd
+------------
+fplm : a=db01 b=d7ee
+FAIL: got=76f7 expected=76f6 base=76f1
+------------
+fplm : a=dc72 b=daf5
+PASS: got=7bec expected=7bec base=7bbb
+------------
+fplm : a=5c3c b=530a
+PASS: got=73c1 expected=73c1 base=7374
+------------
+fplm : a=d053 b=d4da
+PASS: got=692d expected=692d base=693f
+------------
+fplm : a=d0c4 b=5a77
+FAIL: got=efff expected=effe base=efb4
+------------
+fplm : a=d44a b=4f84
+PASS: got=e80c expected=e80c base=e808
+------------
+fplm : a=50ec b=568d
+PASS: got=6c32 expected=6c32 base=6c08
+------------
+fplm : a=4f07 b=58ac
+FAIL: got=6c2f expected=6c2e base=6c1b
+------------
+fplm : a=55a1 b=5068
+PASS: got=6a09 expected=6a09 base=6a33
+------------
+fplm : a=d2af b=d87d
+PASS: got=6fd4 expected=6fd4 base=6f80
+------------
+fplm : a=c696 b=4f2c
+PASS: got=d9e1 expected=d9e1 base=d9e7
+------------
+fplm : a=d515 b=5773
+PASS: got=f0ce expected=f0ce base=f0bb
+------------
+fplm : a=5a26 b=5873
+PASS: got=7786 expected=7786 base=76d7
+------------
+fplm : a=5ae4 b=d90c
+PASS: got=f87e expected=f87e base=f859
+------------
+fplm : a=d49f b=d2c6
+PASS: got=6c02 expected=6c02 base=6bd3
+------------
+fplm : a=52f2 b=499c
+PASS: got=6115 expected=6115 base=60df
+------------
+fplm : a=58b2 b=d982
+PASS: got=f634 expected=f634 base=f677
+------------
+fplm : a=59f0 b=48c7
+PASS: got=66b7 expected=66b7 base=6717
+------------
+fplm : a=db26 b=da0c
+PASS: got=7999 expected=7999 base=7967
+------------
+fplm : a=50bb b=54ca
+PASS: got=6985 expected=6985 base=69aa
+------------
+fplm : a=d795 b=5a47
+FAIL: got=f5ed expected=f5ec base=f5f3
+------------
+fplm : a=d159 b=d825
+PASS: got=6d7e expected=6d7e base=6d8a
+------------
+fplm : a=55bb b=5443
+PASS: got=6dfe expected=6dfe base=6e1b
+------------
+fplm : a=db07 b=d853
+PASS: got=77d6 expected=77d6 base=7799
+------------
+fplm : a=5944 b=dac9
+PASS: got=f8a8 expected=f8a8 base=f877
+------------
+fplm : a=d929 b=581b
+PASS: got=f544 expected=f544 base=f54c
+------------
+fplm : a=c873 b=5c3d
+PASS: got=e8b0 expected=e8b0 base=e8b7
+------------
+fplm : a=d75a b=5af9
+FAIL: got=f6a9 expected=f6a8 base=f668
+------------
+fplm : a=5c56 b=5151
+PASS: got=71a7 expected=71a7 base=71c3
+------------
+fplm : a=d553 b=51c4
+PASS: got=eb17 expected=eb17 base=ebad
+------------
+fplm : a=549c b=5789
+PASS: got=7060 expected=7060 base=7057
+------------
+fplm : a=d411 b=c37f
+PASS: got=5bd0 expected=5bd0 base=5b9f
+------------
+fplm : a=5c68 b=510b
+PASS: got=7173 expected=7173 base=718e
+------------
+fplm : a=5731 b=d8a0
+PASS: got=f438 expected=f438 base=f428
+------------
+fplm : a=cc02 b=d733
+FAIL: got=679b expected=679a base=6737
+------------
+fplm : a=51a3 b=59be
+PASS: got=6f61 expected=6f61 base=700c
+------------
+fplm : a=d616 b=5022
+PASS: got=eb2d expected=eb2d base=ea4a
+------------
+fplm : a=d567 b=5162
+PASS: got=eac9 expected=eac9 base=eb45
+------------
+fplm : a=d735 b=5811
+FAIL: got=f3ab expected=f3aa base=f354
+------------
+fplm : a=dbb3 b=5630
+FAIL: got=f5f1 expected=f5f0 base=f5f4
+------------
+fplm : a=568f b=db15
+FAIL: got=f5d1 expected=f5d0 base=f5ce
+------------
+fplm : a=d6bf b=594d
+PASS: got=f4ac expected=f4ac base=f478
+------------
+fplm : a=d46c b=dc89
+PASS: got=74f5 expected=74f5 base=7503
+------------
+fplm : a=d55f b=d6d9
+FAIL: got=70cb expected=70ca base=7099
+------------
+fplm : a=59fd b=55b2
+PASS: got=73af expected=73af base=7443
+------------
+fplm : a=db6c b=d70b
+FAIL: got=76bb expected=76ba base=7689
+------------
+fplm : a=ce89 b=4d05
+FAIL: got=e049 expected=e048 base=e01a
+------------
+fplm : a=bc3b b=4ab0
+PASS: got=cb93 expected=cb93 base=cb13
+------------
+fplm : a=d85c b=572a
+PASS: got=f3f1 expected=f3f1 base=f3cf
+------------
+fplm : a=52c8 b=d324
+PASS: got=e9f6 expected=e9f6 base=ea0e
+------------
+fplm : a=d25e b=d3e7
+PASS: got=6aa2 expected=6aa2 base=6a4a
+------------
+fplm : a=d334 b=5cb0
+PASS: got=f44a expected=f44a base=f438
+------------
+fplm : a=d46d b=4864
+PASS: got=e0d1 expected=e0d1 base=e0dc
+------------
+fplm : a=de38 b=5ab0
+FAIL: got=fd74 expected=fc00 base=fd33
+------------
+fplm : a=d6db b=5662
+PASS: got=f19e expected=f19e base=f178
+------------
+fplm : a=dc0e b=5880
+PASS: got=f88e expected=f88e base=f890
+------------
+fplm : a=5894 b=58e0
+PASS: got=7574 expected=7574 base=7594
+------------
+fplm : a=db95 b=5016
+PASS: got=efe0 expected=efe0 base=efbf
+------------
+fplm : a=5822 b=5d03
+PASS: got=7925 expected=7925 base=792e
+------------
+fplm : a=5bd5 b=4740
+PASS: got=670a expected=670a base=6719
+------------
+fplm : a=d846 b=d4d6
+PASS: got=711c expected=711c base=712b
+------------
+fplm : a=d4f7 b=ce7d
+FAIL: got=6835 expected=6834 base=6807
+------------
+fplm : a=4fbb b=5824
+FAIL: got=6c01 expected=6c00 base=6c00
+------------
+fplm : a=d201 b=dca3
+FAIL: got=73a3 expected=73a2 base=72f6
+------------
+fplm : a=bcde b=4de6
+PASS: got=cec4 expected=cec4 base=cf2d
+------------
+fplm : a=4c45 b=4581
+PASS: got=55c6 expected=55c6 base=55e0
+------------
+fplm : a=d189 b=cea2
+PASS: got=64da expected=64da base=6497
+------------
+fplm : a=590d b=d815
+PASS: got=f522 expected=f522 base=f528
+------------
+fplm : a=cc12 b=4fdf
+FAIL: got=e001 expected=e000 base=e001
+------------
+fplm : a=4fb3 b=d176
+FAIL: got=e54f expected=e54e base=e541
+------------
+fplm : a=575b b=5262
+PASS: got=6dde expected=6dde base=6dde
+------------
+fplm : a=5a79 b=5976
+PASS: got=78b2 expected=78b2 base=786b
+------------
+fplm : a=54aa b=d490
+PASS: got=ed3a expected=ed3a base=ed52
+------------
+fplm : a=5177 b=551b
+PASS: got=6a92 expected=6a92 base=6afa
+------------
+fplm : a=cc64 b=550b
+PASS: got=e56f expected=e56f base=e589
+------------
+fplm : a=598b b=d0d8
+PASS: got=ee63 expected=ee63 base=eeb6
+------------
+fplm : a=59ca b=5cd0
+PASS: got=7a9a expected=7a9a base=7af7
+------------
+fplm : a=557d b=ca48
+PASS: got=e4a1 expected=e4a1 base=e44f
+------------
+fplm : a=cb84 b=d809
+PASS: got=67cb expected=67cb base=6795
+------------
+fplm : a=56e9 b=4aa7
+FAIL: got=65c7 expected=65c6 base=65bf
+------------
+fplm : a=d947 b=54a9
+PASS: got=f1f0 expected=f1f0 base=f226
+------------
+fplm : a=c189 b=d9d7
+PASS: got=5f60 expected=5f60 base=600a
+------------
+fplm : a=d7e1 b=5211
+FAIL: got=edf8 expected=edf7 base=edf9
+------------
+fplm : a=5d3c b=d8b1
+PASS: got=f9ed expected=f9ed base=fa24
+------------
+fplm : a=d63a b=578d
+FAIL: got=f1e3 expected=f1e2 base=f1e0
+------------
+fplm : a=c569 b=d4cb
+PASS: got=5e34 expected=5e34 base=5e7c
+------------
+fplm : a=dca8 b=58a4
+PASS: got=f94c expected=f94c base=f967
+------------
+fplm : a=d4d6 b=cf8c
+PASS: got=689c expected=689c base=6890
+------------
+fplm : a=5993 b=5bd2
+PASS: got=797c expected=797c base=7973
+------------
+fplm : a=dcc4 b=5927
+PASS: got=f9eb expected=f9eb base=fa23
+------------
+fplm : a=4ca9 b=cd6c
+PASS: got=de15 expected=de15 base=de51
+------------
+fplm : a=d26b b=d47a
+FAIL: got=6baf expected=6bae base=6b2f
+------------
+fplm : a=d77a b=dc88
+PASS: got=7845 expected=7845 base=783c
+------------
+fplm : a=d836 b=5ca2
+PASS: got=f8d8 expected=f8d8 base=f8e1
+------------
+fplm : a=c716 b=5acf
+PASS: got=e5f2 expected=e5f2 base=e608
+------------
+fplm : a=d09a b=cb83
+FAIL: got=605b expected=605a base=6052
+------------
+fplm : a=da99 b=d9ab
+FAIL: got=78f7 expected=78f6 base=78ad
+------------
+fplm : a=d891 b=5a0b
+PASS: got=f796 expected=f796 base=f6e6
+------------
+fplm : a=583d b=5b06
+PASS: got=77c0 expected=77c0 base=7771
+------------
+fplm : a=5467 b=584a
+PASS: got=70b1 expected=70b1 base=70b8
+------------
+fplm : a=5524 b=59dd
+PASS: got=7301 expected=7301 base=7389
+------------
+fplm : a=5aab b=52d6
+PASS: got=71c0 expected=71c0 base=71b3
+------------
+fplm : a=4fb4 b=4597
+PASS: got=5971 expected=5971 base=5962
+------------
+fplm : a=d8d8 b=d971
+PASS: got=7649 expected=7649 base=7697
+------------
+fplm : a=56d1 b=cf8c
+PASS: got=eaae expected=eaae base=ea6e
+------------
+fplm : a=5e1e b=d13a
+PASS: got=f449 expected=f449 base=f3fe
+------------
+fplm : a=cbbd b=d9f8
+PASS: got=69d6 expected=69d6 base=69c6
+------------
+fplm : a=c478 b=d38c
+PASS: got=5c3e expected=5c3e base=5c37
+------------
+fplm : a=59b6 b=4f14
+PASS: got=6d40 expected=6d40 base=6d0e
+------------
+fplm : a=5981 b=cc90
+PASS: got=ea11 expected=ea11 base=ea47
+------------
+fplm : a=5469 b=56da
+PASS: got=6fd6 expected=6fd6 base=6f8e
+------------
+fplm : a=d6bd b=d76b
+FAIL: got=7293 expected=7292 base=723f
+------------
+fplm : a=d89e b=577e
+PASS: got=f45d expected=f45d base=f453
+------------
+fplm : a=d651 b=d427
+FAIL: got=6f4f expected=6f4e base=6e8f
+------------
+fplm : a=d233 b=cedd
+FAIL: got=6587 expected=6586 base=6552
+------------
+fplm : a=4f60 b=56fb
+FAIL: got=6aad expected=6aac base=6a6f
+------------
+fplm : a=5a93 b=5676
+PASS: got=7584 expected=7584 base=754f
+------------
+fplm : a=546b b=cbe6
+PASS: got=e45e expected=e45e base=e45d
+------------
+fplm : a=ce64 b=5855
+PASS: got=eb87 expected=eb87 base=eaec
+------------
+fplm : a=d515 b=c5ae
+PASS: got=5ec3 expected=5ec3 base=5f37
+------------
+fplm : a=d9d6 b=513f
+PASS: got=ef15 expected=ef15 base=efa7
+------------
+fplm : a=ca16 b=d367
+PASS: got=61be expected=61be base=61a2
+------------
+fplm : a=529b b=d759
+FAIL: got=edf9 expected=edf8 base=ee11
+------------
+fplm : a=c81c b=dbce
+PASS: got=6803 expected=6803 base=6802
+------------
+fplm : a=d5bc b=dba1
+PASS: got=758c expected=758c base=7578
+------------
+fplm : a=d376 b=d2aa
+PASS: got=6a90 expected=6a90 base=6a37
+------------
+fplm : a=5af6 b=5874
+PASS: got=77ef expected=77ef base=77c0
+------------
+fplm : a=5869 b=cc89
+PASS: got=e8f2 expected=e8f2 base=e900
+------------
+fplm : a=5c33 b=d047
+PASS: got=f07a expected=f07a base=f07e
+------------
+fplm : a=d7e7 b=51e2
+FAIL: got=edd5 expected=edd4 base=edd0
+------------
+fplm : a=d435 b=58ff
+PASS: got=f134 expected=f134 base=f141
+------------
+fplm : a=51c1 b=db5e
+PASS: got=f170 expected=f170 base=f14c
+------------
+fplm : a=d15d b=5d9a
+PASS: got=f2f7 expected=f2f7 base=f383
+------------
+fplm : a=db34 b=5d75
+FAIL: got=fd0f expected=fc00 base=fcea
+------------
+fplm : a=d6a9 b=5c39
+FAIL: got=f78d expected=f78c base=f708
+------------
+fplm : a=da69 b=d318
+PASS: got=71c0 expected=71c0 base=71af
+------------
+fplm : a=c970 b=5e53
+FAIL: got=ec99 expected=ec98 base=ec4c
+------------
+fplm : a=4dbe b=c94d
+PASS: got=db0b expected=db0b base=db9c
+------------
+fplm : a=5631 b=d4f1
+FAIL: got=f009 expected=f008 base=efa6
+------------
+fplm : a=5852 b=5776
+PASS: got=740d expected=740d base=7407
+------------
+fplm : a=ce45 b=592e
+PASS: got=ec50 expected=ec50 base=ec0f
+------------
+fplm : a=4874 b=caeb
+FAIL: got=d7e9 expected=d7e8 base=d7b4
+------------
+fplm : a=da60 b=dbb7
+FAIL: got=7a8b expected=7a8a base=7a26
+------------
+fplm : a=d5bf b=c882
+PASS: got=6241 expected=6241 base=627a
+------------
+fplm : a=d3ad b=5205
+FAIL: got=e9d8 expected=e9d7 base=e9c7
+------------
+fplm : a=58f2 b=cc6a
+PASS: got=e95c expected=e95c base=e975
+------------
+fplm : a=4f83 b=da72
+PASS: got=edfa expected=edfa base=ee0d
+------------
+fplm : a=da81 b=d0c9
+FAIL: got=7009 expected=7008 base=6fc8
+------------
+fplm : a=dabb b=ce5f
+FAIL: got=6d8c expected=6d8b base=6d5c
+------------
+fplm : a=5969 b=574b
+PASS: got=750e expected=750e base=74ef
+------------
+fplm : a=5704 b=d497
+PASS: got=f019 expected=f019 base=f006
+------------
+fplm : a=b4e9 b=d0c6
+PASS: got=49af expected=49af base=49dc
+------------
+fplm : a=5840 b=cfbb
+FAIL: got=ec1d expected=ec1c base=ec1b
+------------
+fplm : a=dcf3 b=50c1
+PASS: got=f1b4 expected=f1b4 base=f1e2
+------------
+fplm : a=5a29 b=4894
+PASS: got=67a8 expected=67a8 base=670d
+------------
+fplm : a=d3cc b=5877
+PASS: got=f05d expected=f05d base=f05a
+------------
+fplm : a=c3b7 b=597e
+FAIL: got=e159 expected=e158 base=e14c
+------------
+fplm : a=51bc b=cbda
+PASS: got=e1a9 expected=e1a9 base=e1a1
+------------
+fplm : a=d495 b=d43f
+PASS: got=6cd4 expected=6cd4 base=6cdd
+------------
+fplm : a=df38 b=d37a
+PASS: got=76d9 expected=76d9 base=76bf
+------------
+fplm : a=56b5 b=d7b9
+FAIL: got=f2b6 expected=f2b5 base=f279
+------------
+fplm : a=5be4 b=4e51
+PASS: got=6e9a expected=6e9a base=6e3b
+------------
+fplm : a=5412 b=d8d1
+PASS: got=f0e3 expected=f0e3 base=f0e7
+------------
+fplm : a=5934 b=59ac
+PASS: got=76e0 expected=76e0 base=7761
+------------
+fplm : a=531a b=4dec
+PASS: got=6579 expected=6579 base=6542
+------------
+fplm : a=5179 b=d828
+PASS: got=eda1 expected=eda1 base=edb0
+------------
+fplm : a=d69a b=cfb1
+FAIL: got=6aa5 expected=6aa4 base=6a59
+------------
+fplm : a=cf84 b=5700
+PASS: got=eac2 expected=eac2 base=ea94
+------------
+fplm : a=dac3 b=57d1
+FAIL: got=f6c9 expected=f6c8 base=f69b
+------------
+fplm : a=da28 b=d763
+FAIL: got=75c5 expected=75c4 base=75af
+------------
+fplm : a=5179 b=5b91
+FAIL: got=7141 expected=7140 base=712d
+------------
+fplm : a=5887 b=d41e
+PASS: got=f0a5 expected=f0a5 base=f0a9
+------------
+fplm : a=5a47 b=564a
+PASS: got=7548 expected=7548 base=74ef
+------------
+fplm : a=5b65 b=da63
+FAIL: got=f9e3 expected=f9e2 base=f9e7
+------------
+fplm : a=d382 b=528f
+PASS: got=ea88 expected=ea88 base=ea28
+------------
+fplm : a=559f b=d431
+PASS: got=edd0 expected=edd0 base=ede4
+------------
+fplm : a=5798 b=da9e
+PASS: got=f69b expected=f69b base=f648
+------------
+fplm : a=454c b=5879
+PASS: got=61c5 expected=61c5 base=61ec
+------------
+fplm : a=5a4f b=d17e
+FAIL: got=f0a5 expected=f0a4 base=f055
+------------
+fplm : a=c1df b=51ae
+PASS: got=d78d expected=d78d base=d82b
+------------
+fplm : a=4246 b=d905
+PASS: got=e028 expected=e028 base=dfdf
+------------
+fplm : a=d507 b=4ef9
+FAIL: got=e883 expected=e882 base=e862
+------------
+fplm : a=ce09 b=db94
+PASS: got=6dce expected=6dce base=6db8
+------------
+fplm : a=dc03 b=d117
+PASS: got=711a expected=711a base=711b
+------------
+fplm : a=d2a2 b=d889
+PASS: got=6fda expected=6fda base=6f85
+------------
+fplm : a=d42e b=cc7b
+PASS: got=64a9 expected=64a9 base=64af
+------------
+fplm : a=5668 b=5654
+PASS: got=715e expected=715e base=7111
+------------
+fplm : a=d637 b=cf1a
+PASS: got=69a8 expected=69a8 base=6984
+------------
+fplm : a=51e0 b=d032
+PASS: got=e612 expected=e612 base=e629
+------------
+fplm : a=d537 b=dc28
+PASS: got=755f expected=755f base=756b
+------------
+fplm : a=542b b=d41a
+PASS: got=ec45 expected=ec45 base=ec46
+------------
+fplm : a=5450 b=dbed
+PASS: got=f446 expected=f446 base=f446
+------------
+fplm : a=b86a b=5c23
+PASS: got=d88d expected=d88d base=d891
+------------
+fplm : a=5892 b=448d
+PASS: got=611f expected=611f base=6133
+------------
+fplm : a=5852 b=583b
+PASS: got=748d expected=748d base=7492
+------------
+fplm : a=48ed b=d8d7
+PASS: got=e5c4 expected=e5c4 base=e5f6
+------------
+fplm : a=d861 b=d895
+PASS: got=74f6 expected=74f6 base=7504
+------------
+fplm : a=3c50 b=5b80
+PASS: got=5c10 expected=5c10 base=5c0b
+------------
+fplm : a=d7e7 b=5d07
+PASS: got=f8fa expected=f8fa base=f8f7
+------------
+fplm : a=cd26 b=d719
+PASS: got=68b2 expected=68b2 base=6891
+------------
+fplm : a=cf4d b=dbbe
+FAIL: got=6f05 expected=6f04 base=6f11
+------------
+fplm : a=d752 b=d5ea
+PASS: got=7193 expected=7193 base=7169
+------------
+fplm : a=5b49 b=d671
+FAIL: got=f5dc expected=f5db base=f5de
+------------
+fplm : a=d509 b=44a7
+PASS: got=ddb0 expected=ddb0 base=dddb
+------------
+fplm : a=55a9 b=3c11
+PASS: got=55ba expected=55ba base=55c1
+------------
+fplm : a=cead b=568f
+FAIL: got=e99d expected=e99c base=e979
+------------
+fplm : a=4efd b=d3a2
+FAIL: got=e6cf expected=e6ce base=e6ab
+------------
+fplm : a=dc61 b=d428
+PASS: got=7489 expected=7489 base=748d
+------------
+fplm : a=5724 b=da60
+PASS: got=f5c2 expected=f5c2 base=f5b1
+------------
+fplm : a=5030 b=591a
+PASS: got=6d4a expected=6d4a base=6d57
+------------
+fplm : a=d912 b=dab6
+PASS: got=786d expected=786d base=7841
+------------
+fplm : a=5802 b=55bf
+PASS: got=71c1 expected=71c1 base=71c2
+------------
+fplm : a=48c5 b=dacb
+PASS: got=e82a expected=e82a base=e80d
+------------
+fplm : a=dc07 b=393c
+PASS: got=d943 expected=d943 base=d945
+------------
+fplm : a=d1fd b=488a
+PASS: got=de87 expected=de87 base=decc
+------------
+fplm : a=573a b=4803
+PASS: got=63a0 expected=63a0 base=633f
+------------
+fplm : a=d3a2 b=4d5b
+PASS: got=e52c expected=e52c base=e51c
+------------
+fplm : a=5c87 b=d62c
+PASS: got=f79d expected=f79d base=f6fc
+------------
+fplm : a=d4f9 b=d91a
+PASS: got=7213 expected=7213 base=7258
+------------
+fplm : a=d8c0 b=5c32
+PASS: got=f8f2 expected=f8f2 base=f8fb
+------------
+fplm : a=dc0b b=d42c
+PASS: got=7437 expected=7437 base=7437
+------------
+fplm : a=d915 b=40d7
+PASS: got=ddec expected=ddec base=de26
+------------
+fplm : a=593e b=d4b1
+PASS: got=f1ef expected=f1ef base=f226
+------------
+fplm : a=5411 b=d7c1
+FAIL: got=eff1 expected=eff0 base=efe2
+------------
+fplm : a=cb7b b=c792
+PASS: got=5706 expected=5706 base=5714
+------------
+fplm : a=d889 b=ce1f
+PASS: got=6b98 expected=6b98 base=6af1
+------------
+fplm : a=4eeb b=5378
+FAIL: got=66b1 expected=66b0 base=6675
+------------
+fplm : a=cd80 b=cd3b
+PASS: got=5ebb expected=5ebb base=5f31
+------------
+fplm : a=5adf b=55ed
+PASS: got=755c expected=755c base=7517
+------------
+fplm : a=db8f b=cc6a
+FAIL: got=6c31 expected=6c30 base=6c2c
+------------
+fplm : a=55f4 b=ca90
+PASS: got=e53c expected=e53c base=e4e2
+------------
+fplm : a=530e b=c694
+PASS: got=ddd1 expected=ddd1 base=ddcd
+------------
+fplm : a=50e0 b=c336
+PASS: got=d87b expected=d87b base=d865
+------------
+fplm : a=d78a b=5b0b
+PASS: got=f6ca expected=f6ca base=f6a3
+------------
+fplm : a=d3b7 b=4aa1
+FAIL: got=e2ab expected=e2aa base=e265
+------------
+fplm : a=5b4d b=d4fd
+FAIL: got=f4a3 expected=f4a2 base=f48d
+------------
+fplm : a=dae9 b=55d9
+FAIL: got=f54d expected=f54c base=f50d
+------------
+fplm : a=d5a5 b=d41c
+PASS: got=6dc1 expected=6dc1 base=6dcd
+------------
+fplm : a=d7a1 b=4256
+FAIL: got=ddfb expected=ddfa base=de0b
+------------
+fplm : a=5358 b=d623
+FAIL: got=edbd expected=edbc base=eda2
+------------
+fplm : a=5c05 b=d9ac
+PASS: got=f9b1 expected=f9b1 base=f9b3
+------------
+fplm : a=5a27 b=ccc1
+PASS: got=ebd4 expected=ebd4 base=eb50
+------------
+fplm : a=552f b=d8d3
+PASS: got=f202 expected=f202 base=f240
+------------
+fplm : a=502d b=ce32
+PASS: got=e346 expected=e346 base=e278
+------------
+fplm : a=d2e1 b=59dd
+FAIL: got=f14d expected=f14c base=f10b
+------------
+fplm : a=d05a b=5215
+PASS: got=e764 expected=e764 base=e69e
+------------
+fplm : a=d242 b=d131
+PASS: got=6852 expected=6852 base=6810
+------------
+fplm : a=d33b b=418a
+FAIL: got=d927 expected=d926 base=d902
+------------
+fplm : a=daa1 b=d485
+FAIL: got=73d5 expected=73d4 base=737d
+------------
+fplm : a=5136 b=5621
+PASS: got=6c46 expected=6c46 base=6bfc
+------------
+fplm : a=d664 b=5766
+PASS: got=f1e5 expected=f1e5 base=f1e9
+------------
+fplm : a=5cb7 b=b735
+FAIL: got=d851 expected=d850 base=d83f
+------------
+fplm : a=d977 b=d7b9
+FAIL: got=7553 expected=7552 base=7546
+------------
+fplm : a=591e b=4e18
+PASS: got=6c2a expected=6c2a base=6bcc
+------------
+fplm : a=547e b=da61
+PASS: got=f3ae expected=f3ae base=f32a
+------------
+fplm : a=51f3 b=ca28
+PASS: got=e107 expected=e107 base=e094
+------------
+fplm : a=585d b=d8c1
+PASS: got=f51e expected=f51e base=f530
+------------
+fplm : a=59be b=5a31
+PASS: got=78d6 expected=78d6 base=7872
+------------
+fplm : a=55a3 b=4e2b
+PASS: got=68b8 expected=68b8 base=6859
+------------
+fplm : a=d752 b=5291
+FAIL: got=edf1 expected=edf0 base=ee02
+------------
+fplm : a=d90f b=5da2
+PASS: got=fab1 expected=fab1 base=fb20
+------------
+fplm : a=db04 b=59b9
+PASS: got=f93b expected=f93b base=f905
+------------
+fplm : a=daec b=5931
+PASS: got=f8a7 expected=f8a7 base=f87e
+------------
+fplm : a=582c b=d935
+PASS: got=f561 expected=f561 base=f56e
+------------
+fplm : a=dc33 b=dded
+FAIL: got=7e20 expected=7c00 base=7e39
+------------
+fplm : a=dc73 b=d80b
+PASS: got=787e expected=787e base=787f
+------------
+fplm : a=dc75 b=d230
+PASS: got=738d expected=738d base=72e5
+------------
+fplm : a=d167 b=d3af
+PASS: got=693e expected=693e base=6930
+------------
+fplm : a=53f7 b=dc9a
+FAIL: got=f495 expected=f494 base=f495
+------------
+fplm : a=5a31 b=5675
+FAIL: got=7552 expected=7551 base=74ff
+------------
+fplm : a=d84e b=d27e
+PASS: got=6f8d expected=6f8d base=6efd
+------------
+fplm : a=d4d3 b=dd85
+PASS: got=7658 expected=7658 base=76a8
+------------
+fplm : a=c966 b=d51c
+PASS: got=6282 expected=6282 base=62e5
+------------
+fplm : a=d717 b=dd8e
+FAIL: got=7919 expected=7918 base=78ec
+------------
+fplm : a=dad7 b=d8ed
+PASS: got=7858 expected=7858 base=7836
+------------
+fplm : a=d274 b=5ae2
+PASS: got=f1ab expected=f1ab base=f18d
+------------
+fplm : a=c9a4 b=538d
+PASS: got=e16a expected=e16a base=e153
+------------
+fplm : a=d2c9 b=d8fd
+FAIL: got=7061 expected=7060 base=703b
+------------
+fplm : a=cc3e b=d7b2
+PASS: got=6817 expected=6817 base=6815
+------------
+fplm : a=c554 b=d358
+PASS: got=5d00 expected=5d00 base=5ce4
+------------
+fplm : a=d6e4 b=d297
+FAIL: got=6dbd expected=6dbc base=6dad
+------------
+fplm : a=cfbd b=5dc0
+PASS: got=f19e expected=f19e base=f190
+------------
+fplm : a=d07c b=d8c5
+PASS: got=6d41 expected=6d41 base=6d59
+------------
+fplm : a=4600 b=4eb6
+PASS: got=595b expected=595b base=5908
+------------
+fplm : a=dd4a b=d995
+PASS: got=7adf expected=7adf base=7b62
+------------
+fplm : a=51c0 b=48d2
+PASS: got=5e92 expected=5e92 base=5eee
+------------
+fplm : a=520d b=d6c5
+FAIL: got=ed68 expected=ed67 base=ed1f
+------------
+fplm : a=593b b=59fb
+PASS: got=7736 expected=7736 base=77d2
+------------
+fplm : a=d034 b=d8ec
+PASS: got=6d20 expected=6d20 base=6d2c
+------------
+fplm : a=5954 b=56fb
+FAIL: got=74d1 expected=74d0 base=74a6
+------------
+fplm : a=d0c6 b=50cc
+PASS: got=e592 expected=e592 base=e5b9
+------------
+fplm : a=541b b=5709
+FAIL: got=6f9f expected=6f9e base=6f38
+------------
+fplm : a=d6ce b=5ba4
+PASS: got=f6b9 expected=f6b9 base=f680
+------------
+fplm : a=52e5 b=c828
+PASS: got=df9a expected=df9a base=df2a
+------------
+fplm : a=4ff8 b=58a5
+PASS: got=6ca1 expected=6ca1 base=6ca0
+------------
+fplm : a=5ced b=d9a4
+PASS: got=fa91 expected=fa91 base=faf2
+------------
+fplm : a=53dd b=57af
+FAIL: got=6f45 expected=6f44 base=6f8d
+------------
+fplm : a=d12a b=4e81
+PASS: got=e46a expected=e46a base=e433
+------------
+fplm : a=5c71 b=d0d8
+PASS: got=f149 expected=f149 base=f161
+------------
+fplm : a=d40a b=d752
+PASS: got=6fb3 expected=6fb3 base=6f64
+------------
+fplm : a=57ad b=57a3
+FAIL: got=7327 expected=7326 base=7354
+------------
+fplm : a=d84f b=585b
+PASS: got=f4aa expected=f4aa base=f4b1
+------------
+fplm : a=5684 b=dddd
+PASS: got=f91f expected=f91f base=f8c6
+------------
+fplm : a=d0ee b=cc11
+PASS: got=60ff expected=60ff base=6103
+------------
+fplm : a=d933 b=dc63
+PASS: got=7996 expected=7996 base=79b4
+------------
+fplm : a=5b54 b=db0c
+PASS: got=fab0 expected=fab0 base=fa74
+------------
+fplm : a=d924 b=57de
+PASS: got=f513 expected=f513 base=f50e
+------------
+fplm : a=457c b=d499
+PASS: got=de15 expected=de15 base=de4e
+------------
+fplm : a=59bb b=548a
+PASS: got=7245 expected=7245 base=7281
+------------
+fplm : a=ce5f b=d440
+FAIL: got=676f expected=676e base=66c5
+------------
+fplm : a=5223 b=dc0b
+PASS: got=f31c expected=f31c base=f234
+------------
+fplm : a=d5b1 b=dcf5
+PASS: got=76a6 expected=76a6 base=770e
+------------
+fplm : a=5901 b=cdf8
+PASS: got=eaf9 expected=eaf9 base=eb77
+------------
+fplm : a=52cc b=5bcb
+FAIL: got=72cb expected=72ca base=729f
+------------
+fplm : a=5a3f b=4e82
+PASS: got=6d60 expected=6d60 base=6d15
+------------
+fplm : a=5a03 b=5925
+PASS: got=7826 expected=7826 base=77bb
+------------
+fplm : a=5622 b=d8e7
+PASS: got=f3f8 expected=f3f8 base=f384
+------------
+fplm : a=dc6d b=d573
+PASS: got=75e0 expected=75e0 base=7607
+------------
+fplm : a=58c2 b=45cc
+PASS: got=628e expected=628e base=62e5
+------------
+fplm : a=5632 b=5cdc
+PASS: got=77f5 expected=77f5 base=7787
+------------
+fplm : a=c74a b=d4ba
+PASS: got=605f expected=605f base=604e
+------------
+fplm : a=5c63 b=55a4
+PASS: got=7607 expected=7607 base=7630
+------------
+fplm : a=5a1a b=d480
+PASS: got=f38d expected=f38d base=f2dd
+------------
+fplm : a=d992 b=5025
+PASS: got=edb7 expected=edb7 base=edc6
+------------
+fplm : a=d321 b=5938
+PASS: got=f0c8 expected=f0c8 base=f0a7
+------------
+fplm : a=d56c b=d91e
+PASS: got=728a expected=728a base=72f0
+------------
+fplm : a=d84b b=594f
+PASS: got=f59a expected=f59a base=f5b3
+------------
+fplm : a=58e2 b=5c0a
+PASS: got=78ec expected=78ec base=78ee
+------------
+fplm : a=5422 b=5595
+PASS: got=6db7 expected=6db7 base=6dc4
+------------
+fplm : a=5b65 b=d76d
+FAIL: got=f6e8 expected=f6e7 base=f6dd
+------------
+fplm : a=554b b=cd60
+PASS: got=e6ab expected=e6ab base=e71d
+------------
+fplm : a=5cc5 b=4cc4
+PASS: got=6d89 expected=6d89 base=6daf
+------------
+fplm : a=5b77 b=5498
+FAIL: got=7453 expected=7452 base=7449
+------------
+fplm : a=da5b b=d891
+PASS: got=77be expected=77be base=7741
+------------
+fplm : a=5435 b=d98a
+PASS: got=f1bf expected=f1bf base=f1d3
+------------
+fplm : a=d855 b=d794
+PASS: got=741f expected=741f base=741b
+------------
+fplm : a=d8e4 b=d416
+PASS: got=70fa expected=70fa base=70ff
+------------
+fplm : a=d600 b=d3f9
+PASS: got=6dfc expected=6dfc base=6dfb
+------------
+fplm : a=db9d b=d782
+FAIL: got=770f expected=770e base=7725
+------------
+fplm : a=5cd5 b=5888
+PASS: got=795d expected=795d base=7979
+------------
+fplm : a=d358 b=dd77
+PASS: got=7523 expected=7523 base=7504
+------------
+fplm : a=dc49 b=53cf
+PASS: got=f430 expected=f430 base=f42f
+------------
+fplm : a=44e5 b=4c6c
+PASS: got=5551 expected=5551 base=5569
+------------
+fplm : a=d696 b=5613
+PASS: got=f154 expected=f154 base=f100
+------------
+fplm : a=5189 b=b7ed
+FAIL: got=cd7f expected=cd7e base=cd7c
+------------
+fplm : a=d559 b=54c8
+PASS: got=ee21 expected=ee21 base=ee64
+------------
+fplm : a=d63b b=546f
+PASS: got=ef8c expected=ef8c base=eee8
+------------
+fplm : a=db84 b=d337
+FAIL: got=72dd expected=72dc base=72c7
+------------
+fplm : a=dbb5 b=daa3
+FAIL: got=7aab expected=7aaa base=7a65
+------------
+fplm : a=d5c8 b=5d33
+PASS: got=f6fb expected=f6fb base=f784
+------------
+fplm : a=5c12 b=5be8
+FAIL: got=7c06 expected=7c00 base=7c06
+------------
+fplm : a=cf0d b=5b1f
+FAIL: got=ee95 expected=ee94 base=ee47
+------------
+fplm : a=ce30 b=5633
+FAIL: got=e931 expected=e930 base=e8cb
+------------
+fplm : a=5015 b=d8dd
+PASS: got=ecf2 expected=ecf2 base=ecf7
+------------
+fplm : a=d946 b=c7f8
+PASS: got=6542 expected=6542 base=6541
+------------
+fplm : a=5530 b=d927
+PASS: got=f257 expected=f257 base=f2af
+------------
+fplm : a=d8de b=d48c
+PASS: got=716a expected=716a base=7188
+------------
+fplm : a=cf99 b=cce4
+PASS: got=60b0 expected=60b0 base=60a5
+------------
+fplm : a=d4e8 b=cb5b
+FAIL: got=6495 expected=6494 base=6483
+------------
+fplm : a=cfec b=d70d
+PASS: got=6afc expected=6afc base=6afb
+------------
+fplm : a=5c2f b=5456
+PASS: got=7485 expected=7485 base=7489
+------------
+fplm : a=5886 b=d456
+PASS: got=f0dc expected=f0dc base=f0e7
+------------
+fplm : a=5885 b=d3bd
+FAIL: got=f063 expected=f062 base=f05f
+------------
+fplm : a=4c9e b=5986
+PASS: got=6a24 expected=6a24 base=6a60
+------------
+fplm : a=4bc8 b=5657
+FAIL: got=668f expected=668e base=662b
+------------
+fplm : a=44fd b=30d2
+PASS: got=39cf expected=39cf base=3a03
+------------
+fplm : a=551f b=5c44
+PASS: got=7563 expected=7563 base=7576
+------------
+fplm : a=d164 b=c3d2
+PASS: got=594d expected=594d base=5945
+------------
+fplm : a=db6a b=d86d
+PASS: got=7822 expected=7822 base=781a
+------------
+fplm : a=5b06 b=dbd9
+FAIL: got=faef expected=faee base=fae4
+------------
+fplm : a=d593 b=d494
+PASS: got=6e27 expected=6e27 base=6e61
+------------
+fplm : a=5761 b=c4c1
+FAIL: got=e071 expected=e070 base=e063
+------------
+fplm : a=54f7 b=d4ec
+PASS: got=ede3 expected=ede3 base=ee1c
+------------
+fplm : a=d284 b=d9ea
+PASS: got=712c expected=712c base=70d1
+------------
+fplm : a=571f b=da43
+FAIL: got=f5b0 expected=f5af base=f593
+------------
+fplm : a=d80d b=d9ea
+PASS: got=75f7 expected=75f7 base=75fd
+------------
+fplm : a=5705 b=56d6
+FAIL: got=71ed expected=71ec base=7200
+------------
+fplm : a=58f7 b=5d6b
+PASS: got=7a62 expected=7a62 base=7aba
+------------
+fplm : a=5979 b=5a77
+PASS: got=78b4 expected=78b4 base=786c
+------------
+fplm : a=cd05 b=d8c3
+PASS: got=69c8 expected=69c8 base=69fa
+------------
+fplm : a=d164 b=da75
+PASS: got=709e expected=709e base=705a
+------------
+fplm : a=56ec b=da19
+PASS: got=f582 expected=f582 base=f547
+------------
+fplm : a=caea b=da66
+PASS: got=69a8 expected=69a8 base=6988
+------------
+fplm : a=d818 b=5c7e
+PASS: got=f896 expected=f896 base=f899
+------------
+fplm : a=c184 b=5246
+PASS: got=d8a7 expected=d8a7 base=d853
+------------
+fplm : a=d441 b=59a2
+PASS: got=f1e3 expected=f1e3 base=f1fe
+------------
+fplm : a=d50d b=5ac6
+PASS: got=f470 expected=f470 base=f447
+------------
+fplm : a=5228 b=5215
+PASS: got=691e expected=691e base=68ae
+------------
+fplm : a=d4c0 b=51c3
+PASS: got=ea83 expected=ea83 base=ead8
+------------
+fplm : a=5aeb b=db85
+FAIL: got=fab7 expected=fab6 base=fa81
+------------
+fplm : a=5812 b=5724
+PASS: got=73a4 expected=73a4 base=7344
+------------
+fplm : a=5618 b=db15
+PASS: got=f596 expected=f596 base=f565
+------------
+fplm : a=d631 b=42e4
+PASS: got=dd8a expected=dd8a base=dd55
+------------
+fplm : a=d588 b=d25a
+PASS: got=6cb5 expected=6cb5 base=6c64
+------------
+fplm : a=502e b=c9d1
+PASS: got=ddff expected=ddff base=de14
+------------
+fplm : a=d48d b=4a89
+FAIL: got=e3d1 expected=e3d0 base=e36f
+------------
+fplm : a=46fc b=d76f
+FAIL: got=e2b5 expected=e2b4 base=e27d
+------------
+fplm : a=c9e0 b=de46
+PASS: got=6d03 expected=6d03 base=6c9b
+------------
+fplm : a=4313 b=585e
+FAIL: got=5fe7 expected=5fe6 base=5fb9
+------------
+fplm : a=d2b4 b=4460
+PASS: got=dbba expected=dbba base=db55
+------------
+fplm : a=d8e2 b=d959
+PASS: got=763b expected=763b base=7687
+------------
+fplm : a=d7e0 b=5581
+PASS: got=f171 expected=f171 base=f16b
+------------
+fplm : a=560a b=d980
+PASS: got=f485 expected=f485 base=f427
+------------
+fplm : a=59d1 b=46c0
+PASS: got=6531 expected=6531 base=64e8
+------------
+fplm : a=d0b0 b=d78a
+PASS: got=6c75 expected=6c75 base=6c6b
+------------
+fplm : a=59cd b=d51c
+PASS: got=f2e9 expected=f2e9 base=f369
+------------
+fplm : a=5286 b=4de3
+PASS: got=6526 expected=6526 base=64cd
+------------
+fplm : a=ce98 b=c783
+FAIL: got=5a8d expected=5a8c base=5a31
+------------
+fplm : a=56b4 b=542d
+PASS: got=6f87 expected=6f87 base=6eff
+------------
+fplm : a=5682 b=55f1
+PASS: got=7132 expected=7132 base=70d5
+------------
+fplm : a=c98d b=5b3c
+PASS: got=e92b expected=e92b base=e905
+------------
+fplm : a=c265 b=57dc
+PASS: got=dea0 expected=dea0 base=de48
+------------
+fplm : a=d439 b=59ca
+PASS: got=f203 expected=f203 base=f21c
+------------
+fplm : a=dc11 b=d02b
+PASS: got=703c expected=703c base=703d
+------------
+fplm : a=d431 b=58fd
+PASS: got=f12e expected=f12e base=f13a
+------------
+fplm : a=51c2 b=d867
+PASS: got=ee29 expected=ee29 base=ee56
+------------
+fplm : a=d60e b=d438
+PASS: got=6f3f expected=6f3f base=6e63
+------------
+fplm : a=59a2 b=5cb7
+PASS: got=7a59 expected=7a59 base=7aa4
+------------
+fplm : a=59aa b=d65a
+PASS: got=f4d7 expected=f4d7 base=f47f
+------------
+fplm : a=557f b=d922
+PASS: got=f2a1 expected=f2a1 base=f30d
+------------
+fplm : a=59bf b=509f
+PASS: got=6e5e expected=6e5e base=6ea3
+------------
+fplm : a=d5ea b=5b31
+PASS: got=f582 expected=f582 base=f551
+------------
+fplm : a=d689 b=57fb
+FAIL: got=f2c1 expected=f2c0 base=f285
+------------
+fplm : a=d838 b=d3ac
+PASS: got=700e expected=700e base=700c
+------------
+fplm : a=d815 b=d895
+PASS: got=74aa expected=74aa base=74ad
+------------
+fplm : a=5113 b=c5e1
+PASS: got=daf4 expected=daf4 base=db75
+------------
+fplm : a=d7ea b=d733
+PASS: got=730e expected=730e base=731f
+------------
+fplm : a=d6b4 b=d9d6
+PASS: got=7530 expected=7530 base=74e4
+------------
+fplm : a=d4c1 b=59de
+PASS: got=f29f expected=f29f base=f2f9
+------------
+fplm : a=4da3 b=5768
+PASS: got=6957 expected=6957 base=6938
+------------
+fplm : a=566a b=dc57
+PASS: got=f78c expected=f78c base=f6f6
+------------
+fplm : a=cd3b b=5754
+PASS: got=e8e5 expected=e8e5 base=e8cb
+------------
+fplm : a=5645 b=5964
+PASS: got=7486 expected=7486 base=7439
+------------
+fplm : a=58e0 b=d47f
+PASS: got=f15f expected=f15f base=f17b
+------------
+fplm : a=d62c b=da7a
+PASS: got=7553 expected=7553 base=74ff
+------------
+fplm : a=d8a8 b=4a78
+PASS: got=e7e4 expected=e7e4 base=e788
+------------
+fplm : a=4c31 b=d774
+PASS: got=e7eb expected=e7eb base=e7cf
+------------
+fplm : a=5413 b=d8f1
+PASS: got=f104 expected=f104 base=f108
+------------
+fplm : a=5e7e b=5874
+PASS: got=7bb3 expected=7bb3 base=7b3a
+------------
+fplm : a=dd58 b=dc8e
+FAIL: got=7de6 expected=7c00 base=7e16
+------------
+fplm : a=d915 b=5ac8
+PASS: got=f879 expected=f879 base=f84f
+------------
+fplm : a=cd95 b=d099
+PASS: got=622e expected=622e base=626b
+------------
+fplm : a=4976 b=daa2
+PASS: got=e8c7 expected=e8c7 base=e887
+------------
+fplm : a=d44b b=d915
+PASS: got=7160 expected=7160 base=7174
+------------
+fplm : a=db8a b=54de
+PASS: got=f4a3 expected=f4a3 base=f496
+------------
+fplm : a=4fa5 b=53d6
+FAIL: got=673d expected=673c base=677d
+------------
+fplm : a=514d b=5c6e
+PASS: got=71bb expected=71bb base=71df
+------------
+fplm : a=da28 b=4fc9
+PASS: got=edf8 expected=edf8 base=edfe
+------------
+fplm : a=59ec b=d852
+PASS: got=f63e expected=f63e base=f665
+------------
+fplm : a=59ac b=d78f
+FAIL: got=f573 expected=f572 base=f55c
+------------
+fplm : a=d73b b=ccc3
+PASS: got=6860 expected=6860 base=684e
+------------
+fplm : a=d776 b=5839
+PASS: got=f3f4 expected=f3f4 base=f3e0
+------------
+fplm : a=d42d b=db64
+PASS: got=73df expected=73df base=73b7
+------------
+fplm : a=d18e b=d996
+PASS: got=6f24 expected=6f24 base=6fc2
+------------
+fplm : a=d5bb b=559c
+PASS: got=ef57 expected=ef57 base=f005
+------------
+fplm : a=5648 b=d8fb
+PASS: got=f41f expected=f41f base=f3d2
+------------
+fplm : a=5740 b=dc5e
+PASS: got=f7fe expected=f7fe base=f7ea
+------------
+fplm : a=4a25 b=58c7
+FAIL: got=67d9 expected=67d8 base=6757
+------------
+fplm : a=5273 b=d5e9
+PASS: got=ed22 expected=ed22 base=ecc4
+------------
+fplm : a=d10c b=4e93
+FAIL: got=e455 expected=e454 base=e426
+------------
+fplm : a=d88e b=59dc
+PASS: got=f66a expected=f66a base=f6ac
+------------
+fplm : a=d244 b=d466
+PASS: got=6b88 expected=6b88 base=6ae4
+------------
+fplm : a=5892 b=d2cf
+FAIL: got=eff9 expected=eff8 base=efc8
+------------
+fplm : a=55a3 b=528c
+PASS: got=6ce9 expected=6ce9 base=6c9d
+------------
+fplm : a=cf83 b=5c7a
+FAIL: got=f03b expected=f03a base=f034
+------------
+fplm : a=dc7c b=d428
+PASS: got=74a4 expected=74a4 base=74a9
+------------
+fplm : a=cca6 b=d71a
+PASS: got=6833 expected=6833 base=6820
+------------
+fplm : a=d85e b=582f
+PASS: got=f48d expected=f48d base=f491
+------------
+fplm : a=56aa b=55b0
+PASS: got=7105 expected=7105 base=70bd
+------------
+fplm : a=d9ca b=55ca
+PASS: got=f394 expected=f394 base=f430
+------------
+fplm : a=dadd b=d8e8
+PASS: got=7856 expected=7856 base=7836
+------------
+fplm : a=5ed7 b=cddd
+PASS: got=f148 expected=f148 base=f103
+------------
+fplm : a=57e8 b=d74e
+PASS: got=f31b expected=f31b base=f338
+------------
+fplm : a=5431 b=d991
+PASS: got=f1c2 expected=f1c2 base=f1d5
+------------
+fplm : a=4bd7 b=d425
+PASS: got=e410 expected=e410 base=e410
+------------
+fplm : a=5168 b=d8bf
+PASS: got=ee27 expected=ee27 base=ee6a
+------------
+fplm : a=586e b=d8bf
+PASS: got=f52d expected=f52d base=f542
+------------
+fplm : a=d397 b=d8e1
+PASS: got=70ac expected=70ac base=70a1
+------------
+fplm : a=cb45 b=4af3
+FAIL: got=da9b expected=da9a base=da51
+------------
+fplm : a=d5d3 b=d968
+PASS: got=733b expected=733b base=73df
+------------
+fplm : a=50e8 b=4890
+PASS: got=5d78 expected=5d78 base=5d99
+------------
+fplm : a=48fa b=c429
+PASS: got=d123 expected=d123 base=d12d
+------------
+fplm : a=dab2 b=45d5
+PASS: got=e52e expected=e52e base=e4e2
+------------
+fplm : a=5b88 b=4a49
+PASS: got=69e8 expected=69e8 base=69eb
+------------
+fplm : a=dc4a b=5589
+PASS: got=f5d3 expected=f5d3 base=f5ef
+------------
+fplm : a=4dff b=53ab
+PASS: got=65d4 expected=65d4 base=65bf
+------------
+fplm : a=d8f9 b=d7aa
+PASS: got=74ce expected=74ce base=74c4
+------------
+fplm : a=4a5b b=5a52
+PASS: got=6956 expected=6956 base=6905
+------------
+fplm : a=573c b=5c9e
+PASS: got=783c expected=783c base=782d
+------------
+fplm : a=d4af b=4c7a
+PASS: got=e529 expected=e529 base=e53e
+------------
+fplm : a=5a70 b=5560
+PASS: got=7498 expected=7498 base=7453
+------------
+fplm : a=d5f6 b=5843
+PASS: got=f239 expected=f239 base=f25a
+------------
+fplm : a=50eb b=d4c5
+PASS: got=e9b0 expected=e9b0 base=e9dd
+------------
+fplm : a=d54a b=d1d1
+PASS: got=6b1b expected=6b1b base=6bb1
+------------
+fplm : a=d4cf b=dc0c
+PASS: got=74db expected=74db base=74dd
+------------
+fplm : a=5525 b=d342
+PASS: got=ecc6 expected=ecc6 base=ecab
+------------
+fplm : a=c494 b=4f35
+PASS: got=d82e expected=d82e base=d820
+------------
+fplm : a=d885 b=da63
+PASS: got=77b6 expected=77b6 base=7737
+------------
+fplm : a=3438 b=5605
+PASS: got=4f3a expected=4f3a base=4e59
+------------
+fplm : a=5449 b=55f5
+PASS: got=6e3e expected=6e3e base=6e62
+------------
+fplm : a=4db0 b=5602
+PASS: got=68b1 expected=68b1 base=6845
+------------
+fplm : a=522a b=513e
+PASS: got=6853 expected=6853 base=680a
+------------
+fplm : a=db98 b=58d9
+PASS: got=f8a5 expected=f8a5 base=f89a
+------------
+fplm : a=54c6 b=cc98
+PASS: got=e55e expected=e55e base=e57b
+------------
+fplm : a=d8c4 b=5892
+PASS: got=f556 expected=f556 base=f572
+------------
+fplm : a=d7f1 b=d88e
+PASS: got=7486 expected=7486 base=7485
+------------
+fplm : a=5ae9 b=d93a
+PASS: got=f8ae expected=f8ae base=f884
+------------
+fplm : a=d9cc b=582d
+PASS: got=f5f9 expected=f5f9 base=f60d
+------------
+fplm : a=d29f b=56da
+PASS: got=edbc expected=edbc base=edac
+------------
+fplm : a=5978 b=db2e
+PASS: got=f90f expected=f90f base=f8e8
+------------
+fplm : a=4cf6 b=cc32
+PASS: got=dd28 expected=dd28 base=dd34
+------------
+fplm : a=594a b=db0d
+PASS: got=f8d0 expected=f8d0 base=f8a9
+------------
+fplm : a=59c5 b=56f8
+PASS: got=7541 expected=7541 base=7507
+------------
+fplm : a=557a b=d549
+PASS: got=eec3 expected=eec3 base=ef3c
+------------
+fplm : a=56df b=c874
+FAIL: got=e3e3 expected=e3e2 base=e3a6
+------------
+fplm : a=dd13 b=5594
+PASS: got=f6a7 expected=f6a7 base=f713
+------------
+fplm : a=c759 b=c80d
+FAIL: got=53b9 expected=53b8 base=5371
+------------
+fplm : a=c81f b=ce87
+PASS: got=5b62 expected=5b62 base=5aba
+------------
+fplm : a=db9e b=d486
+PASS: got=7455 expected=7455 base=744f
+------------
+fplm : a=c55a b=550c
+PASS: got=de66 expected=de66 base=dec1
+------------
+fplm : a=5e2d b=d05c
+PASS: got=f372 expected=f372 base=f2bb
+------------
+fplm : a=5967 b=daf4
+PASS: got=f8e1 expected=f8e1 base=f8b2
+------------
+fplm : a=d0a9 b=e021
+PASS: got=74ca expected=74ca base=74cf
+------------
+fplm : a=551a b=d1dc
+PASS: got=eaf6 expected=eaf6 base=eb79
+------------
+fplm : a=54ac b=d81e
+PASS: got=f0ca expected=f0ca base=f0cf
+------------
+fplm : a=d466 b=dd3a
+PASS: got=75a0 expected=75a0 base=75bf
+------------
+fplm : a=d759 b=d328
+PASS: got=6ec0 expected=6ec0 base=6e93
+------------
+fplm : a=547e b=dd24
+PASS: got=f5a2 expected=f5a2 base=f5c6
+------------
+fplm : a=c858 b=5872
+PASS: got=e4ca expected=e4ca base=e4d4
+------------
+fplm : a=596a b=5a30
+PASS: got=7882 expected=7882 base=7830
+------------
+fplm : a=d4d2 b=d860
+PASS: got=7132 expected=7132 base=7146
+------------
+fplm : a=d6a7 b=512c
+FAIL: got=ec7f expected=ec7e base=ec4d
+------------
+fplm : a=d7ab b=d502
+FAIL: got=70d7 expected=70d6 base=70cd
+------------
+fplm : a=5af9 b=ce83
+FAIL: got=edbd expected=edbc base=edad
+------------
+fplm : a=da7a b=5b51
+FAIL: got=f9e5 expected=f9e4 base=f9ec
+------------
+fplm : a=dbf2 b=c998
+PASS: got=6991 expected=6991 base=698e
+------------
+fplm : a=586f b=5134
+PASS: got=6da3 expected=6da3 base=6dc4
+------------
+fplm : a=5b82 b=d91d
+PASS: got=f8de expected=f8de base=f8cc
+------------
+fplm : a=47c0 b=dc54
+PASS: got=e834 expected=e834 base=e831
+------------
+fplm : a=48e3 b=56f4
+PASS: got=645d expected=645d base=643f
+------------
+fplm : a=5aaf b=d67b
+FAIL: got=f594 expected=f593 base=f56a
+------------
+fplm : a=c575 b=5d85
+PASS: got=e6fa expected=e6fa base=e788
+------------
+fplm : a=581e b=d633
+FAIL: got=f337 expected=f336 base=f261
+------------
+fplm : a=d994 b=55ac
+PASS: got=f340 expected=f340 base=f3e9
+------------
+fplm : a=d37e b=d89b
+PASS: got=705a expected=705a base=7050
+------------
+fplm : a=d934 b=5c1b
+PASS: got=f94f expected=f94f base=f957
+------------
+fplm : a=db46 b=d54f
+PASS: got=74f2 expected=74f2 base=74d4
+------------
+fplm : a=d72a b=5960
+PASS: got=f4f5 expected=f4f5 base=f4d0
+------------
+fplm : a=49ec b=5916
+PASS: got=6702 expected=6702 base=6788
+------------
+fplm : a=5c03 b=45da
+PASS: got=65dd expected=65dd base=65de
+------------
+fplm : a=5867 b=db66
+PASS: got=f81a expected=f81a base=f812
+------------
+fplm : a=5985 b=44d8
+PASS: got=625d expected=625d base=62af
+------------
+fplm : a=d336 b=4c95
+PASS: got=e430 expected=e430 base=e421
+------------
+fplm : a=d2b8 b=db14
+PASS: got=71e6 expected=71e6 base=71f2
+------------
+fplm : a=d391 b=59ef
+FAIL: got=f1b7 expected=f1b6 base=f19d
+------------
+fplm : a=d62b b=5a4b
+FAIL: got=f53a expected=f539 base=f4da
+------------
+fplm : a=553b b=4b5d
+FAIL: got=64e9 expected=64e8 base=64d0
+------------
+fplm : a=5667 b=56b0
+FAIL: got=718b expected=718a base=715a
+------------
+fplm : a=5860 b=5a60
+PASS: got=7790 expected=7790 base=76f9
+------------
+fplm : a=5594 b=d906
+PASS: got=f29a expected=f29a base=f301
+------------
+fplm : a=dda2 b=446b
+PASS: got=e60d expected=e60d base=e639
+------------
+fplm : a=5500 b=53fa
+PASS: got=6cfd expected=6cfd base=6cfc
+------------
+fplm : a=5ae9 b=cdc6
+PASS: got=ed3a expected=ed3a base=ecfd
+------------
+fplm : a=5bf1 b=5550
+PASS: got=7548 expected=7548 base=7546
+------------
+fplm : a=5944 b=d0be
+PASS: got=ee02 expected=ee02 base=ee3e
+------------
+fplm : a=dc5e b=d153
+PASS: got=71b1 expected=71b1 base=71d0
+------------
+fplm : a=dd55 b=5b1f
+FAIL: got=fce4 expected=fc00 base=fcbf
+------------
+fplm : a=dae8 b=dc9b
+FAIL: got=7c0f expected=7c00 base=7bf4
+------------
+fplm : a=5575 b=4dde
+PASS: got=6753 expected=6753 base=6801
+------------
+fplm : a=5ad5 b=4d54
+PASS: got=6cbe expected=6cbe base=6c8d
+------------
+fplm : a=dedc b=5747
+FAIL: got=fa91 expected=fa90 base=fa3d
+------------
+fplm : a=da61 b=5045
+FAIL: got=ef75 expected=ef74 base=eecf
+------------
+fplm : a=5c80 b=d58e
+PASS: got=f60e expected=f60e base=f640
+------------
+fplm : a=58cc b=5621
+PASS: got=73dc expected=73dc base=735a
+------------
+fplm : a=5a72 b=daa4
+PASS: got=f98b expected=f98b base=f95a
+------------
+fplm : a=d312 b=d17e
+PASS: got=6907 expected=6907 base=68db
+------------
+fplm : a=5957 b=d48d
+PASS: got=f1e4 expected=f1e4 base=f213
+------------
+fplm : a=537d b=4d9b
+FAIL: got=6559 expected=6558 base=653f
+------------
+fplm : a=d7d6 b=d0d4
+PASS: got=6cbf expected=6cbf base=6cbb
+------------
+fplm : a=da18 b=5e7e
+FAIL: got=fd4b expected=fc00 base=fcf2
+------------
+fplm : a=57fb b=50df
+PASS: got=6cdc expected=6cdc base=6cdc
+------------
+fplm : a=5a0a b=49d2
+PASS: got=68d7 expected=68d7 base=6865
+------------
+fplm : a=48c2 b=54c0
+PASS: got=6182 expected=6182 base=61a6
+------------
+fplm : a=5430 b=c883
+PASS: got=e0b3 expected=e0b3 base=e0b9
+------------
+fplm : a=da25 b=d2e4
+PASS: got=7184 expected=7184 base=714b
+------------
+fplm : a=dd01 b=5356
+PASS: got=f4ac expected=f4ac base=f497
+------------
+fplm : a=d80f b=54d9
+PASS: got=f0e8 expected=f0e8 base=f0eb
+------------
+fplm : a=5c5e b=5941
+PASS: got=799f expected=799f base=79bc
+------------
+fplm : a=d88e b=dcec
+PASS: got=797a expected=797a base=799b
+------------
+fplm : a=ce8c b=d010
+PASS: got=6356 expected=6356 base=62a6
+------------
+fplm : a=561b b=54d9
+PASS: got=6fe6 expected=6fe6 base=6f66
+------------
+fplm : a=5573 b=d82f
+PASS: got=f1a2 expected=f1a2 base=f1b3
+------------
+fplm : a=d2cc b=5cc4
+PASS: got=f42a expected=f42a base=f40d
+------------
+fplm : a=d1ef b=d62f
+PASS: got=6d06 expected=6d06 base=6c96
+------------
+fplm : a=5939 b=df69
+FAIL: got=fced expected=fc00 base=fcd6
+------------
+fplm : a=be44 b=d28a
+PASS: got=5567 expected=5567 base=551f
+------------
+fplm : a=d1b6 b=53ec
+PASS: got=e9ac expected=e9ac base=e9a8
+------------
+fplm : a=d81f b=d959
+PASS: got=7578 expected=7578 base=7582
+------------
+fplm : a=58f2 b=d938
+PASS: got=f62a expected=f62a base=f674
+------------
+fplm : a=5802 b=d23d
+PASS: got=ef20 expected=ef20 base=ee40
+------------
+fplm : a=46d0 b=55c2
+PASS: got=612a expected=612a base=60e7
+------------
+fplm : a=db49 b=58b1
+FAIL: got=f855 expected=f854 base=f846
+------------
+fplm : a=5d57 b=4851
+PASS: got=69a8 expected=69a8 base=69c3
+------------
+fplm : a=de3e b=5931
+FAIL: got=fc50 expected=fc00 base=fc0d
+------------
+fplm : a=5045 b=586f
+PASS: got=6cb4 expected=6cb4 base=6cbb
+------------
+fplm : a=d6de b=5147
+PASS: got=ecb6 expected=ecb6 base=ec88
+------------
+fplm : a=d4ea b=d485
+PASS: got=6d6f expected=6d6f base=6d8d
+------------
+fplm : a=5c15 b=c70d
+FAIL: got=e79b expected=e79a base=e732
+------------
+fplm : a=d3a3 b=dcf9
+PASS: got=74ca expected=74ca base=74bf
+------------
+fplm : a=4f40 b=46d1
+PASS: got=5a88 expected=5a88 base=5a2d
+------------
+fplm : a=d5c6 b=5a1e
+PASS: got=f4d5 expected=f4d5 base=f46a
+------------
+fplm : a=c87e b=54f6
+PASS: got=e174 expected=e174 base=e192
+------------
+fplm : a=daac b=d14d
+PASS: got=70a3 expected=70a3 base=706c
+------------
+fplm : a=5b8a b=4cf1
+PASS: got=6cb6 expected=6cb6 base=6ca8
+------------
+fplm : a=48d5 b=dadd
+FAIL: got=e843 expected=e842 base=e825
+------------
+fplm : a=d38f b=5890
+FAIL: got=f057 expected=f056 base=f050
+------------
+fplm : a=52f9 b=5aa0
+PASS: got=71cc expected=71cc base=71c6
+------------
+fplm : a=3dba b=ca76
+PASS: got=ccf5 expected=ccf5 base=cca0
+------------
+fplm : a=cc7c b=471c
+PASS: got=d80a expected=d80a base=d7f8
+------------
+fplm : a=595d b=5875
+PASS: got=75d2 expected=75d2 base=75fa
+------------
+fplm : a=de5b b=5c07
+FAIL: got=ff34 expected=fc00 base=fe66
+------------
+fplm : a=51ee b=ce8d
+PASS: got=e534 expected=e534 base=e4db
+------------
+fplm : a=53f8 b=51f7
+PASS: got=69f3 expected=69f3 base=69f1
+------------
+fplm : a=5652 b=d73f
+PASS: got=f1c8 expected=f1c8 base=f1ba
+------------
+fplm : a=dba9 b=5735
+FAIL: got=f6ee expected=f6ed base=f6e7
+------------
+fplm : a=4252 b=5939
+PASS: got=6062 expected=6062 base=6020
+------------
+fplm : a=5810 b=5261
+PASS: got=6f40 expected=6f40 base=6e7b
+------------
+fplm : a=57f0 b=cea5
+PASS: got=eaca expected=eaca base=ea98
+------------
+fplm : a=5463 b=d493
+PASS: got=ecf6 expected=ecf6 base=ed04
+------------
+fplm : a=603c b=d5a3
+PASS: got=f9df expected=f9df base=f9f8
+------------
+fplm : a=dc19 b=5888
+PASS: got=f8a1 expected=f8a1 base=f8a4
+------------
+fplm : a=5679 b=4e9b
+FAIL: got=6989 expected=6988 base=6958
+------------
+fplm : a=5a15 b=544e
+PASS: got=7358 expected=7358 base=728c
+------------
+fplm : a=db16 b=5a32
+PASS: got=f9a4 expected=f9a4 base=f97d
+------------
+fplm : a=c25d b=53d2
+FAIL: got=da97 expected=da96 base=da38
+------------
+fplm : a=ddba b=5542
+PASS: got=f6fc expected=f6fc base=f787
+------------
+fplm : a=d80e b=d0bb
+PASS: got=6cc9 expected=6cc9 base=6ccc
+------------
+fplm : a=dcc2 b=55f0
+PASS: got=f6b2 expected=f6b2 base=f710
+------------
+fplm : a=d88b b=d8f4
+PASS: got=757f expected=757f base=75a0
+------------
+fplm : a=5320 b=568a
+PASS: got=6dd5 expected=6dd5 base=6dd3
+------------
+fplm : a=ca22 b=57ea
+PASS: got=e686 expected=e686 base=e611
+------------
+fplm : a=5900 b=5cb9
+PASS: got=79b9 expected=79b9 base=79e7
+------------
+fplm : a=5b61 b=3ab2
+FAIL: got=5a89 expected=5a88 base=5a2d
+------------
+fplm : a=5a24 b=d2f8
+PASS: got=f18e expected=f18e base=f159
+------------
+fplm : a=5ce7 b=5c9e
+FAIL: got=7d85 expected=7c00 base=7da9
+------------
+fplm : a=d4d6 b=dbb9
+PASS: got=74b2 expected=74b2 base=74ab
+------------
+fplm : a=58b7 b=da44
+PASS: got=f7d9 expected=f7d9 base=f763
+------------
+fplm : a=55b8 b=5891
+PASS: got=7249 expected=7249 base=7287
+------------
+fplm : a=d84d b=516d
+PASS: got=edba expected=edba base=edd5
+------------
+fplm : a=5af7 b=d709
+FAIL: got=f5ff expected=f5fe base=f620
+------------
+fplm : a=daf9 b=5677
+FAIL: got=f5b7 expected=f5b6 base=f5a2
+------------
+fplm : a=d356 b=51ef
+PASS: got=e99a expected=e99a base=e971
+------------
+fplm : a=58d0 b=52bd
+PASS: got=702e expected=702e base=700e
+------------
+fplm : a=dae2 b=599b
+PASS: got=f90c expected=f90c base=f8d3
+------------
+fplm : a=57b6 b=500f
+PASS: got=6bea expected=6bea base=6bd3
+------------
+fplm : a=538b b=595d
+PASS: got=7122 expected=7122 base=710f
+------------
+fplm : a=d1d1 b=4eeb
+PASS: got=e546 expected=e546 base=e508
+------------
+fplm : a=d538 b=5224
+PASS: got=ec4a expected=ec4a base=ec01
+------------
+fplm : a=5aea b=4f67
+PASS: got=6ea8 expected=6ea8 base=6e66
+------------
+fplm : a=5935 b=54bb
+PASS: got=71f0 expected=71f0 base=7228
+------------
+fplm : a=5918 b=599b
+PASS: got=76b3 expected=76b3 base=7723
+------------
+fplm : a=4d8e b=585c
+PASS: got=69ea expected=69ea base=6a0e
+------------
+fplm : a=d916 b=5986
+PASS: got=f69c expected=f69c base=f706
+------------
+fplm : a=5773 b=d68d
+FAIL: got=f1ff expected=f1fe base=f21a
+------------
+fplm : a=d7cc b=4cdd
+PASS: got=e8c3 expected=e8c3 base=e8bd
+------------
+fplm : a=d405 b=5483
+PASS: got=ec88 expected=ec88 base=ec89
+------------
+fplm : a=d9bb b=d023
+PASS: got=6dde expected=6dde base=6ded
+------------
+fplm : a=5ee3 b=cf7d
+FAIL: got=f2af expected=f2ae base=f272
+------------
+fplm : a=53dc b=5341
+PASS: got=6b0e expected=6b0e base=6b20
+------------
+fplm : a=588a b=d941
+PASS: got=f5cb expected=f5cb base=f5f6
+------------
+fplm : a=da3c b=55f2
+PASS: got=f510 expected=f510 base=f4a2
+------------
+fplm : a=d68e b=d30b
+PASS: got=6dcc expected=6dcc base=6dc5
+------------
+fplm : a=ce1e b=d9aa
+PASS: got=6cb9 expected=6cb9 base=6c55
+------------
+fplm : a=5670 b=59b0
+PASS: got=74e8 expected=74e8 base=7494
+------------
+fplm : a=59f4 b=ccd8
+PASS: got=eacc expected=eacc base=eb35
+------------
+fplm : a=d1c2 b=d6c7
+FAIL: got=6d25 expected=6d24 base=6ce1
+------------
+fplm : a=5716 b=593a
+PASS: got=74c5 expected=74c5 base=74a1
+------------
+fplm : a=ddd0 b=581b
+PASS: got=f9eb expected=f9eb base=f9f7
+------------
+fplm : a=58c4 b=d57e
+PASS: got=f242 expected=f242 base=f28b
+------------
+fplm : a=4a1c b=5a05
+PASS: got=6910 expected=6910 base=6899
+------------
+fplm : a=c440 b=d9bd
+PASS: got=61fd expected=61fd base=6219
+------------
+fplm : a=5856 b=da33
+FAIL: got=f76f expected=f76e base=f6b8
+------------
+fplm : a=dc60 b=5458
+PASS: got=f4b8 expected=f4b8 base=f4c0
+------------
+fplm : a=da07 b=55b2
+FAIL: got=f4b5 expected=f4b4 base=f44a
+------------
+fplm : a=d519 b=4f45
+FAIL: got=e8bb expected=e8ba base=e8a2
+------------
+fplm : a=db74 b=d5e8
+PASS: got=75a2 expected=75a2 base=7581
+------------
+fplm : a=d5d9 b=d368
+PASS: got=6d8d expected=6d8d base=6d6a
+------------
+fplm : a=db8a b=d70a
+PASS: got=76ca expected=76ca base=76a2
+------------
+fplm : a=54aa b=c9bf
+PASS: got=e269 expected=e269 base=e2b3
+------------
+fplm : a=d60d b=4a90
+PASS: got=e54e expected=e54e base=e4f7
+------------
+fplm : a=5148 b=ce86
+PASS: got=e48b expected=e48b base=e44e
+------------
+fplm : a=5043 b=57ea
+PASS: got=6c38 expected=6c38 base=6c37
+------------
+fplm : a=c651 b=d502
+PASS: got=602a expected=602a base=5fe8
+------------
+fplm : a=d99d b=d387
+PASS: got=7160 expected=7160 base=7148
+------------
+fplm : a=d2e2 b=4737
+PASS: got=de8c expected=de8c base=de35
+------------
+fplm : a=d747 b=d806
+FAIL: got=73a9 expected=73a8 base=7352
+------------
+fplm : a=5769 b=d78e
+FAIL: got=f2fb expected=f2fa base=f2ff
+------------
+fplm : a=49a5 b=dc0f
+PASS: got=e9b4 expected=e9b4 base=e9ba
+------------
+fplm : a=5a0a b=56cf
+PASS: got=756c expected=756c base=7524
+------------
+fplm : a=5a52 b=d30a
+PASS: got=f1ae expected=f1ae base=f190
+------------
+fplm : a=5953 b=ca3c
+PASS: got=e871 expected=e871 base=e826
+------------
+fplm : a=5a05 b=de05
+FAIL: got=fd04 expected=fc00 base=fc88
+------------
+fplm : a=d92b b=d9ad
+PASS: got=76d8 expected=76d8 base=7755
+------------
+fplm : a=47bd b=59a8
+PASS: got=6586 expected=6586 base=6579
+------------
+fplm : a=d3d0 b=dc0c
+PASS: got=73f4 expected=73f4 base=73e7
+------------
+fplm : a=52d5 b=dd3d
+FAIL: got=f4a7 expected=f4a6 base=f479
+------------
+fplm : a=5774 b=5493
+PASS: got=704d expected=704d base=7043
+------------
+fplm : a=b997 b=d41a
+PASS: got=51b1 expected=51b1 base=51bb
+------------
+fplm : a=54e4 b=d78d
+PASS: got=f0aa expected=f0aa base=f09e
+------------
+fplm : a=d30a b=c5a7
+PASS: got=5d2c expected=5d2c base=5cf9
+------------
+fplm : a=5318 b=d93c
+PASS: got=f0c8 expected=f0c8 base=f0a4
+------------
+fplm : a=54ea b=d569
+PASS: got=ee53 expected=ee53 base=eea5
+------------
+fplm : a=d69d b=582c
+PASS: got=f37a expected=f37a base=f2e6
+------------
+fplm : a=5835 b=dce9
+PASS: got=f91e expected=f91e base=f92a
+------------
+fplm : a=c05f b=4db3
+PASS: got=d212 expected=d212 base=d23a
+------------
+fplm : a=d840 b=d7e5
+PASS: got=7432 expected=7432 base=7432
+------------
+fplm : a=d4f3 b=4d9d
+PASS: got=e690 expected=e690 base=e6f2
+------------
+fplm : a=57d4 b=ddd5
+PASS: got=f9bf expected=f9bf base=f9b5
+------------
+fplm : a=d459 b=d47d
+PASS: got=6cd6 expected=6cd6 base=6ce1
+------------
+fplm : a=57bc b=c869
+PASS: got=e447 expected=e447 base=e444
+------------
+fplm : a=5b1f b=d1a1
+PASS: got=f130 expected=f130 base=f103
+------------
+fplm : a=5440 b=58c0
+PASS: got=7100 expected=7100 base=710c
+------------
+fplm : a=ca3f b=59ba
+FAIL: got=e8d9 expected=e8d8 base=e879
+------------
+fplm : a=55bb b=d23a
+PASS: got=ecd8 expected=ecd8 base=ec76
+------------
+fplm : a=cf38 b=d026
+PASS: got=63c2 expected=63c2 base=637d
+------------
+fplm : a=d4db b=d032
+PASS: got=690d expected=690d base=6918
+------------
+fplm : a=d9d1 b=5904
+PASS: got=f6d5 expected=f6d5 base=f74b
+------------
+fplm : a=5916 b=5958
+PASS: got=766e expected=766e base=76cb
+------------
+fplm : a=58e9 b=50f8
+PASS: got=6de1 expected=6de1 base=6e19
+------------
+fplm : a=c0f4 b=5b5d
+PASS: got=e0a2 expected=e0a2 base=e08f
+------------
+fplm : a=5b33 b=3d8c
+FAIL: got=5d25 expected=5d24 base=5cfe
+------------
+fplm : a=5bd5 b=59d3
+FAIL: got=79bd expected=79bc base=79b4
+------------
+fplm : a=ca4f b=5c22
+FAIL: got=eb49 expected=eb48 base=ea85
+------------
+fplm : a=5701 b=4bf0
+PASS: got=66f8 expected=66f8 base=66f3
+------------
+fplm : a=d5f9 b=d444
+PASS: got=6e3d expected=6e3d base=6e5f
+------------
+fplm : a=54ce b=5beb
+FAIL: got=74c3 expected=74c2 base=74c1
+------------
+fplm : a=583f b=4f1e
+PASS: got=6bce expected=6bce base=6b8e
+------------
+fplm : a=d2fd b=d5bb
+FAIL: got=6d39 expected=6d38 base=6d01
+------------
+fplm : a=d4cc b=d43e
+PASS: got=6d0a expected=6d0a base=6d16
+------------
+fplm : a=586c b=499b
+PASS: got=6607 expected=6607 base=6632
+------------
+fplm : a=d7af b=5b6e
+PASS: got=f70e expected=f70e base=f723
+------------
+fplm : a=c13c b=4cc5
+PASS: got=d201 expected=d201 base=d23e
+------------
+fplm : a=d9cc b=5448
+PASS: got=f214 expected=f214 base=f234
+------------
+fplm : a=d277 b=d8fd
+PASS: got=7038 expected=7038 base=7008
+------------
+fplm : a=d76f b=c9eb
+PASS: got=65a2 expected=65a2 base=6580
+------------
+fplm : a=d809 b=cc00
+PASS: got=6809 expected=6809 base=6809
+------------
+fplm : a=d97f b=5c7e
+PASS: got=f9fd expected=f9fd base=fa2c
+------------
+fplm : a=59e5 b=dba8
+PASS: got=f9b9 expected=f9b9 base=f9a4
+------------
+fplm : a=dc0d b=d564
+PASS: got=7571 expected=7571 base=7576
+------------
+fplm : a=596d b=d236
+PASS: got=f088 expected=f088 base=f036
+------------
+fplm : a=5a1f b=d10e
+FAIL: got=f01d expected=f01c base=efbc
+------------
+fplm : a=5dd8 b=532f
+FAIL: got=756f expected=756e base=753f
+------------
+fplm : a=5d1e b=5c26
+FAIL: got=7d44 expected=7c00 base=7d4f
+------------
+fplm : a=5d63 b=55d9
+PASS: got=773c expected=773c base=77e0
+------------
+fplm : a=d905 b=56ad
+FAIL: got=f45b expected=f45a base=f430
+------------
+fplm : a=57f4 b=5471
+PASS: got=706b expected=706b base=706a
+------------
+fplm : a=c525 b=d5a1
+PASS: got=5ec6 expected=5ec6 base=5f3d
+------------
+fplm : a=596f b=5adb
+PASS: got=78dc expected=78dc base=78a8
+------------
+fplm : a=4e87 b=d3a7
+FAIL: got=e696 expected=e695 base=e63e
+------------
+fplm : a=cb4d b=592d
+FAIL: got=e8d3 expected=e8d2 base=e8b9
+------------
+fplm : a=c8b1 b=d04c
+PASS: got=5cfd expected=5cfd base=5d0a
+------------
+fplm : a=531a b=5325
+FAIL: got=6a9f expected=6a9e base=6a58
+------------
+fplm : a=d5d8 b=54fb
+PASS: got=eed3 expected=eed3 base=ef47
+------------
+fplm : a=524a b=5d99
+PASS: got=74be expected=74be base=7467
+------------
+fplm : a=58c4 b=dabb
+FAIL: got=f821 expected=f820 base=f802
+------------
+fplm : a=d9a3 b=cd1b
+PASS: got=6abe expected=6abe base=6b32
+------------
+fplm : a=d5cb b=5ad3
+PASS: got=f534 expected=f534 base=f4f1
+------------
+fplm : a=d5a3 b=5938
+PASS: got=f2db expected=f2db base=f35b
+------------
+fplm : a=573f b=d964
+FAIL: got=f503 expected=f502 base=f4e2
+------------
+fplm : a=d71b b=5340
+FAIL: got=eead expected=eeac base=ee70
+------------
+fplm : a=c8f3 b=d4f2
+PASS: got=61e5 expected=61e5 base=621e
+------------
+fplm : a=50ea b=d1f4
+PASS: got=e6de expected=e6de base=e750
+------------
+fplm : a=d7cc b=5b49
+PASS: got=f70a expected=f70a base=f71a
+------------
+fplm : a=dc53 b=5aba
+PASS: got=fbb0 expected=fbb0 base=fb46
+------------
+fplm : a=5ad0 b=d52e
+PASS: got=f496 expected=f496 base=f469
+------------
+fplm : a=5b84 b=5443
+PASS: got=7405 expected=7405 base=7401
+------------
+fplm : a=58ce b=dd76
+PASS: got=fa44 expected=fa44 base=fa8f
+------------
+fplm : a=d095 b=5480
+PASS: got=e915 expected=e915 base=e928
+------------
+fplm : a=d72d b=d799
+FAIL: got=72e2 expected=72e1 base=72d1
+------------
+fplm : a=5401 b=d840
+PASS: got=f041 expected=f041 base=f041
+------------
+fplm : a=5948 b=5936
+PASS: got=767e expected=767e base=76e1
+------------
+fplm : a=5648 b=d879
+PASS: got=f39d expected=f39d base=f306
+------------
+fplm : a=5940 b=cf1c
+PASS: got=ecce expected=ecce base=ecaa
+------------
+fplm : a=d5ef b=c902
+PASS: got=62f1 expected=62f1 base=636e
+------------
+fplm : a=d51b b=5d96
+PASS: got=f6b1 expected=f6b1 base=f721
+------------
+fplm : a=d64e b=58f9
+PASS: got=f420 expected=f420 base=f3d6
+------------
+fplm : a=556a b=5918
+PASS: got=7282 expected=7282 base=72e5
+------------
+fplm : a=5470 b=d56e
+PASS: got=edde expected=edde base=ee06
+------------
+fplm : a=54cb b=5261
+FAIL: got=6bfb expected=6bfa base=6ba5
+------------
+fplm : a=cd88 b=5114
+PASS: got=e29c expected=e29c base=e306
+------------
+fplm : a=590d b=ddac
+PASS: got=fab9 expected=fab9 base=fb29
+------------
+fplm : a=54fa b=54b0
+PASS: got=6daa expected=6daa base=6dd5
+------------
+fplm : a=5113 b=55c4
+PASS: got=6ad7 expected=6ad7 base=6b50
+------------
+      1003 tests completed with        216 errors
+18446744073709551605 Exponential Error and 18446744073709547124 Mantissa Error between fplm2 and baseline

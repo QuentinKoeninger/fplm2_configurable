@@ -1,20 +1,95 @@
 # do fplm2.do
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 20:23:32 on Mar 01,2026
-# vlog -lint fplm2.sv fplm2ExpAdd.sv fplm2MpAdd.sv mul_fplm2.sv tb_fplm2.sv 
+# Start time: 20:31:01 on Mar 10,2026
+# vlog -lint fplm2.sv fplm2ExpAdd.sv fplm2MpAdd.sv mul_fplm2.sv tb_fplm2.sv CSAdder.v HA_row.v exp_adder.v fmult.v man_mult.v mult_NOBOOTH_64_64_cs.v round.v sbh_round.v sticky.v tadders.v 
 # -- Compiling module fplm2_16
 # -- Compiling module fplm2ExpAdd
 # -- Compiling module fplm2MpAdd
 # -- Compiling module mul_fplm2_16
 # -- Compiling module tb_fplm2
+# -- Compiling module CSAdder
+# -- Compiling module HA_row
+# -- Compiling module exp_adder
+# -- Compiling module fmult
+# -- Compiling module man_mult
+# -- Compiling module multiplier
+# -- Compiling module aaoi
+# -- Compiling module halfAdd
+# -- Compiling module r4bs
+# -- Compiling module r4be
+# -- Compiling module fullAdd_xc
+# -- Compiling module maj
+# -- Compiling module fourtwo_x
+# -- Compiling module inverter
+# -- Compiling module buffer
+# -- Compiling module bmux2
+# -- Compiling module mux2
+# -- Compiling module subxor
+# -- Compiling module xnor2
+# -- Compiling module xor2
+# -- Compiling module xor3
+# -- Compiling module xor3c
+# -- Compiling module fullAdd_x
+# -- Compiling module nand2
+# -- Compiling module nand3
+# -- Compiling module and3
+# -- Compiling module and2
+# -- Compiling module nor2
+# -- Compiling module or2
+# -- Compiling module nor3
+# -- Compiling module nand5
+# -- Compiling module and5
+# -- Compiling module nand4
+# -- Compiling module and4
+# -- Compiling module oai
+# -- Compiling module aoi
+# -- Compiling module min
+# -- Compiling module sum_b
+# -- Compiling module fullAdd_i
+# -- Compiling module fullAdd
+# -- Compiling module blackCell
+# -- Compiling module grayCell
+# -- Compiling module round
+# -- Compiling module sbh_round
+# ** Warning: sbh_round.v(110): (vlog-2623) Undefined variable: FixL0.
+# ** Warning: sbh_round.v(111): (vlog-2623) Undefined variable: FixL1.
+# -- Compiling module sticky
+# -- Compiling module half_adder
+# -- Compiling module full_adder
+# -- Compiling module specialized_half_adder
+# -- Compiling module reduced_full_adder
 # 
 # Top level modules:
 # 	tb_fplm2
-# End time: 20:23:32 on Mar 01,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# 	r4bs
+# 	r4be
+# 	fourtwo_x
+# 	mux2
+# 	xor3
+# 	nand2
+# 	nand3
+# 	and3
+# 	nor2
+# 	or2
+# 	nor3
+# 	nand5
+# 	and5
+# 	nand4
+# 	and4
+# 	oai
+# 	fullAdd
+# 	blackCell
+# 	full_adder
+# 	specialized_half_adder
+# 	reduced_full_adder
+# End time: 20:31:01 on Mar 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
 # vsim -voptargs="+acc" work.tb_fplm2 
-# Start time: 20:23:32 on Mar 01,2026
+# Start time: 20:31:01 on Mar 10,2026
 # ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: sbh_round.v(110): (vopt-2623) Undefined variable: FixL0.
+# ** Warning: sbh_round.v(111): (vopt-2623) Undefined variable: FixL1.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # //  ModelSim SE-64 2021.3 Jul 13 2021
 # //
 # //  Copyright 1991-2021 Mentor Graphics Corporation
@@ -34,9 +109,29 @@
 # Loading work.fplm2_16(fast)
 # Loading work.fplm2MpAdd(fast)
 # Loading work.fplm2ExpAdd(fast)
-# ** Note: $stop    : tb_fplm2.sv(61)
+# Loading work.fmult(fast)
+# Loading work.exp_adder(fast)
+# Loading work.man_mult(fast)
+# Loading work.multiplier(fast)
+# Loading work.buffer(fast)
+# Loading work.and2(fast)
+# Loading work.halfAdd(fast)
+# Loading work.xor2(fast)
+# Loading work.inverter(fast)
+# Loading work.subxor(fast)
+# Loading work.fullAdd_x(fast)
+# Loading work.xor3c(fast)
+# Loading work.maj(fast)
+# Loading work.min(fast)
+# Loading work.round(fast)
+# Loading work.sbh_round(fast)
+# Loading work.HA_row(fast)
+# Loading work.half_adder(fast)
+# Loading work.CSAdder(fast)
+# Loading work.sticky(fast)
+# ** Note: $stop    : tb_fplm2.sv(73)
 #    Time: 10025 ns  Iteration: 1  Instance: /tb_fplm2
-# Break in Module tb_fplm2 at tb_fplm2.sv line 61
-# Stopped at tb_fplm2.sv line 61
-# End time: 20:23:34 on Mar 01,2026, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
+# Break in Module tb_fplm2 at tb_fplm2.sv line 73
+# Stopped at tb_fplm2.sv line 73
+# End time: 20:31:05 on Mar 10,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2

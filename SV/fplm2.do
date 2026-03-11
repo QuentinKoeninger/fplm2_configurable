@@ -27,7 +27,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog -lint *.sv
+vlog -lint *.sv *.v
 
 # start and run simulation
 vsim -voptargs=+acc work.tb_fplm2
