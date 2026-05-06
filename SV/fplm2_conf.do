@@ -30,7 +30,7 @@ vlib work
 vlog -lint *.sv
 
 # start and run simulation
-vsim -voptargs=+acc work.tb_fplm2_conf
+vsim -voptargs=+acc work.tb_fplm2_conf_16_32
 
 # Diplays All Signals recursively
 # add wave -hex -r /stimulus/*

@@ -9,7 +9,7 @@ module fplm2_conf_16 (Ea, Eb, Ma, Mb, Ep, Mp, Ma0, Mb0, isMSMult, CarryEin, Carr
     input logic [10:0]      Ma, Mb;                 // Input Mantissa (appended with hidden 1 already)
     input logic [4:0]       Ea, Eb;                 // Input Exponents
     input logic             Ma0, Mb0;               // input mantissa most significant bit
-    input logic             isMSMult;               // Determines if this is the most significant multiplier
+    input logic             isMSMult;      // Determines if this is the most significant multiplier
     input logic             CarryMin;               // Carry in from log addition
     input logic [4:0]       CarryEin;               // Carry in from exp adder 
 

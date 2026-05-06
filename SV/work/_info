@@ -11,10 +11,10 @@ z2
 cModel Technology
 Z0 dC:/Users/qkoen/Desktop/GitHub/fplm2_configurable/SV
 T_opt
-!s110 1777927431
-V<P0XXHiO^640^Pj0LBIz82
-04 13 4 work tb_fplm2_conf fast 0
-=1-ac74b186c324-69f90507-fa-158cc
+!s110 1778036835
+VMK4Edm0FjVcEmjL=O8[UQ3
+04 19 4 work tb_fplm2_conf_16_32 fast 0
+=1-ac74b186c324-69fab063-ce-dbf4
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
@@ -22,7 +22,7 @@ n@_opt
 OL;O;2021.3;73
 vconf_mul_fplm2
 Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1777927430
+Z3 !s110 1778036834
 !i10b 1
 !s100 >=kzdK>R_aOY08e4E?mm83
 I1C8J1mbP>SSm>d4Z>F9SS1
@@ -38,11 +38,35 @@ Z5 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z6 !s108 1777927430.000000
-Z7 !s107 tb_fplm2_conf.sv|tb_fplm2.sv|mul_fplm2.sv|fplm2_conf_16.sv|fplm2MpAddConf.sv|fplm2MpAdd.sv|fplm2ExpAddConf.sv|fplm2ExpAdd.sv|fplm2.sv|conf_mul_fplm2.sv|
-Z8 !s90 -lint|conf_mul_fplm2.sv|fplm2.sv|fplm2ExpAdd.sv|fplm2ExpAddConf.sv|fplm2MpAdd.sv|fplm2MpAddConf.sv|fplm2_conf_16.sv|mul_fplm2.sv|tb_fplm2.sv|tb_fplm2_conf.sv|
+Z6 !s108 1778036834.000000
+Z7 !s107 tb_fplm2_conf_16_32.sv|tb_fplm2_conf.sv|tb_fplm2.sv|mul_fplm2_32.sv|mul_fplm2.sv|fplm2_conf_16.sv|fplm2_32.sv|fplm2MpAdd_32.sv|fplm2MpAddConf.sv|fplm2MpAdd.sv|fplm2ExpAdd_32.sv|fplm2ExpAddConf.sv|fplm2ExpAdd.sv|fplm2.sv|conf_mul_fplm2_16_32.sv|conf_mul_fplm2.sv|
+Z8 !s90 -lint|conf_mul_fplm2.sv|conf_mul_fplm2_16_32.sv|fplm2.sv|fplm2ExpAdd.sv|fplm2ExpAddConf.sv|fplm2ExpAdd_32.sv|fplm2MpAdd.sv|fplm2MpAddConf.sv|fplm2MpAdd_32.sv|fplm2_32.sv|fplm2_conf_16.sv|mul_fplm2.sv|mul_fplm2_32.sv|tb_fplm2.sv|tb_fplm2_conf.sv|tb_fplm2_conf_16_32.sv|
 !i113 0
 Z9 o-lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vconf_mul_fplm2_16_32
+R2
+R3
+!i10b 1
+!s100 Fn0D_[:^kTYSCmGFBm5Rg2
+IR@AM1S<fa>c[<2b2EJ8D?0
+S1
+R0
+w1778036830
+8conf_mul_fplm2_16_32.sv
+Fconf_mul_fplm2_16_32.sv
+!i122 0
+L0 6 105
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
 R1
 vfplm2_16
 R2
@@ -68,6 +92,30 @@ R8
 !i113 0
 R9
 R1
+vfplm2_32
+R2
+R3
+!i10b 1
+!s100 ]HM9dLIH_XR``nKTL<kPS0
+IHAQU93Ig4C7iogWH??^4Z1
+S1
+R0
+w1778033094
+8fplm2_32.sv
+Ffplm2_32.sv
+!i122 0
+R10
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
 vfplm2_conf_16
 R2
 R3
@@ -76,7 +124,7 @@ R3
 I<UEX9j:n2nTdbMZNXoT`73
 S1
 R0
-w1777927423
+w1778036695
 8fplm2_conf_16.sv
 Ffplm2_conf_16.sv
 !i122 0
@@ -117,19 +165,44 @@ R8
 R9
 R1
 nfplm2@exp@add
+vfplm2ExpAdd_32
+R2
+R3
+!i10b 1
+!s100 7n0j`PgcDfn4FhG]EUSeH2
+IDmTJaKRB`NV297`DYzo<m2
+S1
+R0
+w1778035529
+8fplm2ExpAdd_32.sv
+Ffplm2ExpAdd_32.sv
+!i122 0
+R11
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nfplm2@exp@add_32
 vfplm2ExpAddConf
 R2
 R3
 !i10b 1
-!s100 mb5<A37>A0<m<9gYFMz;L1
-IKGO`MLDLKb6NQM:oJPD;J2
+!s100 OUc17>0cEO8U1123B95Jb1
+I^^D=<IKJXT:nVUJ[zPzoR3
 S1
 R0
-w1777925767
+w1778036625
 8fplm2ExpAddConf.sv
 Ffplm2ExpAddConf.sv
 !i122 0
-Z12 L0 1 11
+L0 1 12
 R4
 R5
 r1
@@ -167,19 +240,44 @@ R8
 R9
 R1
 nfplm2@mp@add
+vfplm2MpAdd_32
+R2
+R3
+!i10b 1
+!s100 jHMIEh?o2TW?_b6G22JjG2
+IWhi[:2[=?;fn0z88eZ0h>2
+S1
+R0
+w1778014778
+8fplm2MpAdd_32.sv
+Ffplm2MpAdd_32.sv
+!i122 0
+R11
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nfplm2@mp@add_32
 vfplm2MpAddConf
 R2
 R3
 !i10b 1
-!s100 I>UjV=U^3?2AO0k?3fCFT2
-I2XC80Zg7fGE=If2lWh<Yb3
+!s100 LdB[z2S93LJM<@`b9M0`f2
+IBA1dn:@k^Ao`Ud7Il8Cma0
 S1
 R0
-w1777926089
+w1778033225
 8fplm2MpAddConf.sv
 Ffplm2MpAddConf.sv
 !i122 0
-R12
+L0 1 11
 R4
 R5
 r1
@@ -216,6 +314,30 @@ R8
 !i113 0
 R9
 R1
+vmul_fplm2_32
+R2
+R3
+!i10b 1
+!s100 5o??3gfJVh:VIf13BOD@10
+I0NOAUf6RAZHzO]L_k[?Hn3
+S1
+R0
+w1778015185
+8mul_fplm2_32.sv
+Fmul_fplm2_32.sv
+!i122 0
+R10
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
 vtb_fplm2
 R2
 R3
@@ -228,7 +350,7 @@ w1773192642
 8tb_fplm2.sv
 Ftb_fplm2.sv
 !i122 0
-Z13 L0 2 76
+Z12 L0 2 76
 R4
 R5
 r1
@@ -252,7 +374,31 @@ w1777926895
 8tb_fplm2_conf.sv
 Ftb_fplm2_conf.sv
 !i122 0
-R13
+R12
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtb_fplm2_conf_16_32
+R2
+R3
+!i10b 1
+!s100 >K<dHIoRG83JHSIJ7?>d61
+IjCTBOKlda6^_0hY6GP;dI2
+S1
+R0
+w1778036332
+8tb_fplm2_conf_16_32.sv
+Ftb_fplm2_conf_16_32.sv
+!i122 0
+L0 2 96
 R4
 R5
 r1

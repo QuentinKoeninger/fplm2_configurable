@@ -6,6 +6,6 @@ module fplm2MpAddConf (
 );
 
     // Adding logs of mantissa as well as the carry in if necessary
-    assign {CarryMout, Mpp} = {1'b0, Map} + {1'b0, Mbp} + {10'b00_0000_0000, CarryMin};
+    assign {CarryMout, Mpp} = {1'b0, Map} + {1'b0, Mbp} + {10'b0, CarryMin};
 
 endmodule

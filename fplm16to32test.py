@@ -31,6 +31,47 @@ def approx_mul_fplm2_32(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
 
     return sign * torch.ldexp(Xp, e_p)
 
+def approx_mul_fplm2_16(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
+    sign = torch.sign(a) * torch.sign(b)
+    aa = a.abs().clamp_min(torch.finfo(torch.float16).tiny)
+    bb = b.abs().clamp_min(torch.finfo(torch.float16).tiny)
+    m_a, e_a = torch.frexp(aa)
+    m_b, e_b = torch.frexp(bb)
+
+    M_a = 2.0 * m_a
+    M_b = 2.0 * m_b
+    x_a = M_a - 1.0
+    x_b = M_b - 1.0
+
+    bXa = torch.where(x_a < 0.5, x_a, 0.5 * (1.0 + x_a))
+    bXb = torch.where(x_b < 0.5, x_b, 0.5 * (1.0 + x_b))
+
+    s = bXa + bXb
+    carry = (s >= 1.0).to(e_a.dtype)
+    e_p = (e_a + e_b - 2).to(torch.int32) + carry.to(torch.int32)
+
+    Xp = torch.where(s < 1.0, 1.0 + s,
+             torch.where(s < 1.5, s,
+             torch.where(s < 1.75, s - 0.25,
+                         s - 0.125)))
+
+    return sign * torch.ldexp(Xp, e_p)
+
+
+def approx_mul_fplm2_32_conf2 (a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
+    sign = torch.sign(a) * torch.sign(b)
+    aa = a.abs().clamp_min(torch.finfo(torch.float32).tiny)
+    bb = b.abs().clamp_min(torch.finfo(torch.float32).tiny)
+    m_a, e_a = torch.frexp(aa)
+    m_b, e_b = torch.frexp(bb)
+
+    M_a = 2.0 * m_a
+    M_b = 2.0 * m_b
+    x_a = M_a - 1.0
+    x_b = M_b - 1.0
+
+    
+
 # -----------------------------
 # FPLM-2: Approximate floating-point multiplication (Method-2) 32-bit configurable
 # -----------------------------
