@@ -148,9 +148,9 @@ if __name__ == "__main__":
     X2 = approx_anti_log2_improved(sn)
     X3 = approx_anti_log2_workImproved(sn)
 
-    X1_err_ser = X0-X1
-    X2_err_ser = X0-X2
-    X3_err_ser = X0-X3
+    X1_err_ser = (X0-X1) / X0 * 100
+    X2_err_ser = (X0-X2) / X0 * 100
+    X3_err_ser = (X0-X3) / X0 * 100
 
     X1_err = torch.sum(X1_err_ser)
     X2_err = torch.sum(X2_err_ser)
@@ -188,34 +188,74 @@ if __name__ == "__main__":
     print(fplm2_result_32)
     print(a*b)
 
-    fig1, ax1 = plt.subplots(2, 1, figsize=(7,8))
-    ax1[0].plot(sm.numpy(), Y0.numpy(), lw=3)
-    ax1[0].plot(sm.numpy()[0:int(NUM/2)-1], Y1.numpy()[0:int(NUM/2)-1], linestyle='--', lw=3, color='tab:orange')
-    ax1[0].plot(sm.numpy()[int(NUM/2):NUM-1], Y1.numpy()[int(NUM/2):NUM-1], linestyle='--', lw=3, color='tab:orange')
-    ax1[0].grid(True)
-    ax1[1].plot(sn.numpy(), X0.numpy(), lw=3) 
-    ax1[1].plot(sn.numpy()[0:int(NUM/2)-1], X1.numpy()[0:int(NUM/2)-1], linestyle='--', lw=3, color='tab:orange')
-    ax1[1].plot(sn.numpy()[int(NUM/2):int(3*NUM/4)-1], X1.numpy()[int(NUM/2):int(3*NUM/4)-1], linestyle='--', lw=3, color='tab:orange')
-    ax1[1].plot(sn.numpy()[int(3*NUM/4):int(7*NUM/8)-1], X1.numpy()[int(3*NUM/4):int(7*NUM/8)-1], linestyle='--', lw=3, color='tab:orange')
-    ax1[1].plot(sn.numpy()[int(7*NUM/8):NUM-1], X1.numpy()[int(7*NUM/8):NUM-1], linestyle='--', lw=3, color='tab:orange')
-    ax1[1].grid(True)
+    fig1, ax1 = plt.subplots(1, 1, figsize=(8,4))
+    # Original
+    ax1.plot(sn.numpy(), X0.numpy(), lw=3)
+    # FPLM2 Approximation
+    ax1.plot(sn.numpy()[0:int(NUM/2)-1], X1.numpy()[0:int(NUM/2)-1], linestyle='--', lw=3, color='tab:purple')
+    ax1.plot(sn.numpy()[0:int(NUM/8)-1], X3.numpy()[0:int(NUM/8)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(NUM/2):int(3*NUM/4)-1], X1.numpy()[int(NUM/2):int(3*NUM/4)-1], linestyle='--', lw=3, color='tab:purple')
+    ax1.plot(sn.numpy()[int(3*NUM/4):int(7*NUM/8)-1], X1.numpy()[int(3*NUM/4):int(7*NUM/8)-1], linestyle='--', lw=3, color='tab:purple')
+    ax1.plot(sn.numpy()[int(7*NUM/8):NUM-1], X1.numpy()[int(7*NUM/8):NUM-1], linestyle='--', lw=3, color='tab:purple')
+    # New FPLM Approximation
+    ax1.plot(sn.numpy()[int(NUM/8):int(NUM/4)-1], X3.numpy()[int(NUM/8):int(NUM/4)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(NUM/4):int(NUM/2)-1], X3.numpy()[int(NUM/4):int(NUM/2)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(NUM/2):int(9*NUM/16)-1], X3.numpy()[int(NUM/2):int(9*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(9*NUM/16):int(5*NUM/8)-1], X3.numpy()[int(9*NUM/16):int(5*NUM/8)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(5*NUM/8):int(3*NUM/4)-1], X3.numpy()[int(5*NUM/8):int(3*NUM/4)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(3*NUM/4):int(13*NUM/16)-1], X3.numpy()[int(3*NUM/4):int(13*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(13*NUM/16):int(14*NUM/16)-1], X3.numpy()[int(13*NUM/16):int(14*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(14*NUM/16):int(15*NUM/16)-1], X3.numpy()[int(14*NUM/16):int(15*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.plot(sn.numpy()[int(15*NUM/16):NUM-1], X3.numpy()[int(15*NUM/16):NUM-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax1.grid(True)
+    ax1.set_xlim(0, 2)
+    ax1.set_xlabel("x")
+    ax1.set_ylabel("Antilog of x ($2^x$)")
+    ax1.set_title("Approximations Methdods for $2^x$")
+    ax1.legend(("Actual Antilog $2^x$", "Antilog fplm2", "Antilog for Proposed fplm"))
+
+    fig2, ax2 = plt.subplots(1, 1, figsize=(8,4))
+    # Zero Error
+    ax2.plot(sn.numpy(), np.zeros((NUM,1)), lw=3)
+    # Error FPLM2 Approximation
+    ax2.plot(sn.numpy()[0:int(NUM/2)-1], X1_err_ser.numpy()[0:int(NUM/2)-1], linestyle='--', lw=3, color='tab:purple')
+    ax2.plot(sn.numpy()[0:int(NUM/8)-1], X3_err_ser.numpy()[0:int(NUM/8)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(NUM/2):int(3*NUM/4)-1], X1_err_ser.numpy()[int(NUM/2):int(3*NUM/4)-1], linestyle='--', lw=3, color='tab:purple')
+    ax2.plot(sn.numpy()[int(3*NUM/4):int(7*NUM/8)-1], X1_err_ser.numpy()[int(3*NUM/4):int(7*NUM/8)-1], linestyle='--', lw=3, color='tab:purple')
+    ax2.plot(sn.numpy()[int(7*NUM/8):NUM-1], X1_err_ser.numpy()[int(7*NUM/8):NUM-1], linestyle='--', lw=3, color='tab:purple')
+    # Error New FPLM Approximation
+    ax2.plot(sn.numpy()[int(NUM/8):int(NUM/4)-1], X3_err_ser.numpy()[int(NUM/8):int(NUM/4)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(NUM/4):int(NUM/2)-1], X3_err_ser.numpy()[int(NUM/4):int(NUM/2)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(NUM/2):int(9*NUM/16)-1], X3_err_ser.numpy()[int(NUM/2):int(9*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(9*NUM/16):int(5*NUM/8)-1], X3_err_ser.numpy()[int(9*NUM/16):int(5*NUM/8)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(5*NUM/8):int(3*NUM/4)-1], X3_err_ser.numpy()[int(5*NUM/8):int(3*NUM/4)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(3*NUM/4):int(13*NUM/16)-1], X3_err_ser.numpy()[int(3*NUM/4):int(13*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(13*NUM/16):int(14*NUM/16)-1], X3_err_ser.numpy()[int(13*NUM/16):int(14*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(14*NUM/16):int(15*NUM/16)-1], X3_err_ser.numpy()[int(14*NUM/16):int(15*NUM/16)-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.plot(sn.numpy()[int(15*NUM/16):NUM-1], X3_err_ser.numpy()[int(15*NUM/16):NUM-1], linestyle=(0,(1,1)), lw=4.1, color='tab:red')
+    ax2.grid(True)
+    ax2.set_xlim(0,2)
+    ax2.set_xlabel("x")
+    ax2.set_ylabel("Diffrence between $2^x$ and Approximation (%)")
+    ax2.set_title("Percent Difference between Approximation Methods and $2^x$")
+    ax2.legend(("Zero Difference", "Approximation Difference Antilog fplm2", "Approximation Difference Antilog for Proposed fplm"))
 
     #fig2, ax2 = plt.subplots(2, 1, figsize=(7,8))
-    #ax2[0].plot(sn.numpy(), X1.numpy(), lw=2)
-    #ax2[0].plot(sn.numpy(), X0.numpy(), linestyle='--', lw=2)
+    #ax2[0].plot(sn.numpy(), X1.numpy(), lw=4.1)
+    #ax2[0].plot(sn.numpy(), X0.numpy(), linestyle='--', lw=4.1)
     #ax2[0].grid(True) 
-    #ax2[1].plot(sn.numpy(), X3.numpy(), lw=2, c='green')
-    #ax2[1].plot(sn.numpy(), X0.numpy(), linestyle='--', lw=2, c='orange')
+    #ax2[1].plot(sn.numpy(), X3.numpy(), lw=4.1, c='green')
+    #ax2[1].plot(sn.numpy(), X0.numpy(), linestyle='--', lw=4.1, c='orange')
     #ax2[1].grid(True)
 
     #fig3, ax3 = plt.subplots(3, 1, figsize=(5,8))
-    #ax3[0].plot(sn.numpy(), X1_err_ser.numpy(), lw=2)
+    #ax3[0].plot(sn.numpy(), X1_err_ser.numpy(), lw=4.1)
     #ax3[0].grid(True)
     #ax3[0].set_ylim(-0.5, 0.5)
-    #ax3[1].plot(sn.numpy(), X2_err_ser.numpy(), lw=2, c='purple')
+    #ax3[1].plot(sn.numpy(), X2_err_ser.numpy(), lw=4.1, c='purple')
     #ax3[1].grid(True)
     #ax3[1].set_ylim(-0.5, 0.5)
-    #ax3[2].plot(sn.numpy(), X3_err_ser.numpy(), lw=2, c='green')
+    #ax3[2].plot(sn.numpy(), X3_err_ser.numpy(), lw=4.1, c='green')
     #ax3[2].grid(True)
     #ax3[2].set_ylim(-0.5, 0.5)
     
