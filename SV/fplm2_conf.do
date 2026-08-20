@@ -27,42 +27,12 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog -lint *.sv
+vlog -lint tb_fplm2_conf_16_32.sv fplm2.sv conf_mul_fplm2_16_32.sv fplm2_conf_16.sv fplm2ExpAdd.sv fplm2ExpAddConf.sv fplm2MpAddConf.sv fplm2MpAdd.sv mul_fplm2_32.sv mul_fplm2.sv fplm2_32.sv fplm2ExpAdd_32.sv fplm2MpAdd_32.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.tb_fplm2_conf_16_32
 
 # Diplays All Signals recursively
-# add wave -hex -r /stimulus/*
-#add wave -noupdate -divider -height 32 "fma16"
-#add wave -color gold -hex /tb_fma16/clk
-#add wave -hex /tb_fma16/dut/*
-#add wave -noupdate -divider -height 32 "unpack"
-#add wave -r -hex /tb_fma16/dut/unpack/*
-#add wave -noupdate -divider -height 32 "fmaexpadd"
-#add wave -hex /tb_fma16/dut/expadd1/*
-#add wave -noupdate -divider -height 32 "fmamult"
-#add wave -hex /tb_fma16/dut/mult1/*
-#add wave -noupdate -divider -height 32 "fmasign"
-#add wave -hex /tb_fma16/dut/sign1/*
-#add wave -noupdate -divider -height 32 "fmaalign"
-#add wave -hex /tb_fma16/dut/align1/*
-#add wave -noupdate -divider -height 32 "fmaadd"
-#add wave -hex /tb_fma16/dut/add1/*
-##add wave -noupdate -divider -height 32 "lod64"
-##add wave -hex /tb_fma16/dut/lod/*
-#add wave -noupdate -divider -height 32 "fmashiftcalc"
-#add wave -hex /tb_fma16/dut/fmashiftcalc/*
-#add wave -noupdate -divider -height 32 "normshift"
-#add wave -hex /tb_fma16/dut/normshift/*
-#add wave -noupdate -divider -height 32 "resultsign"
-#add wave -hex /tb_fma16/dut/resultsign/*
-#add wave -noupdate -divider -height 32 "round"
-#add wave -hex /tb_fma16/dut/round/*
-#add wave -noupdate -divider -height 32 "flags"
-#add wave -hex /tb_fma16/dut/flags1/*
-#add wave -noupdate -divider -height 32 "specialcase"
-#add wave -hex /tb_fma16/dut/specialcase1/*
 
 
 
