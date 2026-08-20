@@ -3,11 +3,11 @@
 
 // Still need to finish: exception handling, testbench completion
 
-module conf_mul_fplm2_16_32 (a, b, product, is32bit);
+module conf_mul_fplm2_16_32 (a, b, product, precision);
 
     input logic [31:0]      a, b;           // Inputs, IEEE 754 16b FP
     output logic [31:0]     product;        // Output, ""
-    input logic             is32bit;        // Is this 32 bit multiplication
+    input logic             precision;        // Is this 32 bit multiplication
 
     logic [10:0]            Ma16, Mb16;         // Input mantissa 16bit
     logic [23:0]            Ma32, Mb32;         // Input Mantissa 32bit
