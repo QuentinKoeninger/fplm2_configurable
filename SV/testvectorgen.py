@@ -10,7 +10,7 @@ def generate_vector_file(mul1, mul2, prod):
     c1 = prod.to(torch.float16) 
 
 
-    with open("C:/Users/qkoen/Desktop/GitHub/fplm2_configurable/SV/fplm2_testvectors.tv", "w", encoding="utf-8") as file:
+    with open("./fplm2_testvectors.tv", "w", encoding="utf-8") as file:
 
         for w1, w2, w3, w4, w5, w6 in zip(a, b, c, a1, b1, c1):
             file.write(f"{w1.item():4x}_{w2.item():4x}_{w3.item():4x}\t\t// {w4.item():<8} * {w5.item():<8} = {w6.item():<8}\n")

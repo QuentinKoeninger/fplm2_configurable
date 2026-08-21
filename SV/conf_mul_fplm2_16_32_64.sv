@@ -5,34 +5,27 @@
 
 module conf_mul_fplm2_16_32 (a, b, product, precision);
 
-    input logic [31:0]      a, b;           // Inputs, IEEE 754 16b FP
-    output logic [31:0]     product;        // Output, ""
-    input logic             precision;        // Is this 32 bit multiplication
+    input logic [95:0]      a, b;           // Inputs, IEEE 754, first 64 bits used for 64 and 2x32 bit multiplication, the final bits are used for 2x64 bit multiplication 
+    output logic [63:0]     product;        // Output, ""
+    input logic [1:0]       precision;      // Is this 32 bit multiplication
 
-    logic [10:0]            Ma16, Mb16;         // Input mantissa 16bit
-    logic [23:0]            Ma32, Mb32;         // Input Mantissa 32bit
-    logic [4:0]             Ea16, Eb16, Ep16;   // 16 bit Input Exponents
-    logic [7:0]             Ea32, Eb32, Ep32;   // 32 bit Input Exponents
-    logic                   Sa, Sb, Sp;         // Input signs
-    logic                   Ma00_16, Mb00_16, Ma00;   // Most significant bit of input 16 bit
-    logic                   Ma00_32, Mb00_32, Mb00;   // Most significant bit of input 16 bit
-    logic [2:0] [4:0]       CarryEin;           // Carry for the exponent
-    logic [2:0]             CarryMin, CarryMout, CarryEout;
-    logic [10:0]            Ma0, Mb0, Ma1, Mb1, Ma2, Mb2;
-    logic [4:0]             Ea0, Eb0, Ea1, Eb1, Ea2, Eb2;
+    logic [5:0] [10:0]      Ma16, Mb16;                 // Input mantissa 16bit
+    logic [1:0] [23:0]      Ma32, Mb32;                 // Input Mantissa 32bit
+    logic       [54:0]      Ma64, Mb64;                 // Input Mantissa 64bit
+    logic [5:0] [4:0]       Ea16, Eb16, Ep16;           // 16 bit Input Exponents
+    logic [1:0] [7:0]       Ea32, Eb32, Ep32;           // 32 bit Input Exponents
+    logic [10:0]            Ea
+    logic [5:0]             Sa, Sb, Sp;                 // Input/output Signs
+    logic [5:0]             Ma00, Mb00;   // Most significant bit of input 16 bit
+    logic [5:0] [4:0]       CarryEin;                   // Carry for the exponent
+    logic [5:0]             CarryMin, CarryMout, CarryEout;
+    logic [5:0] [10:0]      Ma, Mb;
+    logic [5:0] [4:0]       Ea, Eb;
     logic [2:0] [4:0]       Ep;
     logic [2:0] [9:0]       Mp;
     logic [7:0]             EpAdjust32;
 
     logic                   Pzero16, Pzero32;   // Is the product zero  
-
-    assign Ma00_16 = a[25];
-    assign Mb00_16 = b[25];
-    assign Ma00_32 = a[22];
-    assign Mb00_32 = b[22];
-
-    assign Ma00 = is32bit ? Ma00_32 : Ma00_16;
-    assign Mb00 = is32bit ? Mb00_32 : Mb00_16;
 
     // Determine if Product is Zero, =1 if product should be zero
     assign Pzero16 = ~(|a[30:16]) | ~(|b[30:16]);   
@@ -73,6 +66,9 @@ module conf_mul_fplm2_16_32 (a, b, product, precision);
     assign Mb0 = is32bit ? Mb32[23:13] : Mb16;
     assign Mb1 = is32bit ? Mb32[13:3] : 11'b0;
     assign Mb2 = is32bit ? {Mb32[3:0], 7'b0} : 11'b0;
+    
+    assign Ma00 = is32bit ? Ma00_32 : Ma00_16;  // CHANGING
+    assign Mb00 = is32bit ? Mb00_32 : Mb00_16;  // CHANGING
 
     // Setting up Exponent carry Inputs
     assign CarryEin[0] = {4'b0, (is32bit ? CarryEout[1] : CarryMout[0])};
@@ -92,6 +88,16 @@ module conf_mul_fplm2_16_32 (a, b, product, precision);
                                 .isMSMult(1'b0), .CarryEin(CarryEin[1]), .CarryMin(CarryMin[1]), 
                                 .CarryEout(CarryEout[1]), .CarryMout(CarryMout[1]));
     fplm2_conf_16 fplm2_conf_2(.Ea(Ea2), .Eb(Eb2), .Ma(Ma2), .Mb(Mb2), .Ep(Ep[2]), .Mp(Mp[2]), .Ma0(Ma00), .Mb0(Mb00), 
+                                .isMSMult(1'b0), .CarryEin(CarryEin[2]), .CarryMin(CarryMin[2]), 
+                                .CarryEout(CarryEout[2]), .CarryMout(CarryMout[2]));
+    // Use fplm2 to calculate exponent and mantissa values of the product
+    fplm2_conf_16 fplm2_conf_3(.Ea(Ea0), .Eb(Eb0), .Ma(Ma0), .Mb(Mb0), .Ep(Ep[0]), .Mp(Mp[0]), .Ma0(Ma00), .Mb0(Mb00), 
+                                .isMSMult(1'b1), .CarryEin(CarryEin[0]), .CarryMin(CarryMin[0]),
+                                .CarryEout(CarryEout[0]), .CarryMout(CarryMout[0]));
+    fplm2_conf_16 fplm2_conf_4(.Ea(Ea1), .Eb(Eb1), .Ma(Ma1), .Mb(Mb1), .Ep(Ep[1]), .Mp(Mp[1]), .Ma0(Ma00), .Mb0(Mb00), 
+                                .isMSMult(1'b0), .CarryEin(CarryEin[1]), .CarryMin(CarryMin[1]), 
+                                .CarryEout(CarryEout[1]), .CarryMout(CarryMout[1]));
+    fplm2_conf_16 fplm2_conf_5(.Ea(Ea2), .Eb(Eb2), .Ma(Ma2), .Mb(Mb2), .Ep(Ep[2]), .Mp(Mp[2]), .Ma0(Ma00), .Mb0(Mb00), 
                                 .isMSMult(1'b0), .CarryEin(CarryEin[2]), .CarryMin(CarryMin[2]), 
                                 .CarryEout(CarryEout[2]), .CarryMout(CarryMout[2]));
 
