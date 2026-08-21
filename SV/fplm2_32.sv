@@ -10,15 +10,16 @@ module fplm2_32 (Ea, Eb, Ma, Mb, Ep, Mp);
     output logic [22:0]     Mp;     // Output Mantissa
     output logic [7:0]      Ep;     // Output Exponents
 
-    logic [22:0]            Map, Mbp, Mpp;  // Log of input/output mantissa, M'
+    logic [23:0]            Map, Mbp; 
+    logic [22:0]            Mpp;  // Log of input/output mantissa, M'
 
     logic                   CarryE;         // Carry out from log addition
     logic                   CEandMpp22;     // Carry out and first bit of adder both 1'b1           
 
     // Log approximation equals M if less than 0.5 and equals ... 
     // (1+M)/2 otherwise, Multiplexers used for this process
-    assign Map = Ma[22] ? {1'b1, Ma[22:1]} : Ma;
-    assign Mbp = Mb[22] ? {1'b1, Mb[22:1]} : Mb;
+    assign Map = Ma[22] ? {1'b1, Ma} : {Ma, 1'b0};    // CORRECT: assign Map = Ma[22] ? {1'b1, Ma[22:1]} : Ma;
+    assign Mbp = Mb[22] ? {1'b1, Mb} : {Mb, 1'b0};    // CORRECT: assign Mbp = Mb[22] ? {1'b1, Mb[22:1]} : Mb;
 
     // Adds the log approximations of the mantissa
     fplm2MpAdd_32 MpAdd(.Map, .Mbp, .CarryE, .Mpp);

@@ -1,6 +1,6 @@
 # do fplm2_conf.do
 # Questa Altera Starter FPGA Edition-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
-# Start time: 17:14:59 on Aug 20,2026
+# Start time: 12:42:00 on Aug 21,2026
 # vlog -lint tb_fplm2_conf_16_32.sv fplm2.sv conf_mul_fplm2_16_32.sv fplm2_conf_16.sv fplm2ExpAdd.sv fplm2ExpAddConf.sv fplm2MpAddConf.sv fplm2MpAdd.sv mul_fplm2_32.sv mul_fplm2.sv fplm2_32.sv fplm2ExpAdd_32.sv fplm2MpAdd_32.sv 
 # ** Note: (vlog-220) '/home/quentinkoeninger/altera_pro/26.1.1/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
 # -- Compiling module tb_fplm2_conf_16_32
@@ -19,11 +19,11 @@
 # 
 # Top level modules:
 # 	tb_fplm2_conf_16_32
-# End time: 17:14:59 on Aug 20,2026, Elapsed time: 0:00:00
+# End time: 12:42:00 on Aug 21,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # ** Note: (vsim-220) '/home/quentinkoeninger/altera_pro/26.1.1/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
 # vsim -voptargs="+acc" work.tb_fplm2_conf_16_32 
-# Start time: 17:14:59 on Aug 20,2026
+# Start time: 12:42:00 on Aug 21,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-220) '/home/quentinkoeninger/altera_pro/26.1.1/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
@@ -60,5 +60,5 @@
 #    Time: 20050 ns  Iteration: 1  Instance: /tb_fplm2_conf_16_32
 # Break in Module tb_fplm2_conf_16_32 at tb_fplm2_conf_16_32.sv line 93
 # Stopped at tb_fplm2_conf_16_32.sv line 93
-# End time: 17:15:00 on Aug 20,2026, Elapsed time: 0:00:01
+# End time: 12:42:01 on Aug 21,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
