@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
     sorted_data_no_zeros = sorted_data[sorted_data[:, 0] != 0]
 
-    sorted_error_FPLM32 = (sorted_data_no_zeros[:, 0] - sorted_data_no_zeros[:, 2])# / sorted_data_no_zeros[:, 0]
+    sorted_error_FPLM32 = -(sorted_data_no_zeros[:, 0] - sorted_data_no_zeros[:, 2])# / sorted_data_no_zeros[:, 0]
     #sorted_error_CONF32 = (sorted_data_no_zeros[:, 0] - sorted_data_no_zeros[:, 3])# / sorted_data_no_zeros[:, 0]
 
     #cumsum_error_FPLM32 = (np.cumsum(sorted_error_FPLM32))[-1] * np.ones_like(sorted_error_FPLM32)
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     ax1.set_xlim(min_x, max_x)
     ax1.set_ylim(min_y-y_buff, max_y+y_buff)
     ax1.set_xlabel(r"$M_{FP32}$", fontsize=9)
-    ax1.set_ylabel(r"$M_{FP32}-M_{FPLM32}$", fontsize=9)
+    ax1.set_ylabel(r"$M_{FPLM32}-M_{FP32}$", fontsize=9)
     ax1.legend(
         fontsize=7,            # 7-8 pt font size
         frameon=True,          # Keep frame enabled
@@ -106,7 +106,7 @@ if __name__ == "__main__":
         edgecolor='gray',      # Subtle border line
         handlelength=1.5,      # Keep line sample length compact (default is 2.0)
         labelspacing=0.3,      # Compact vertical spacing between labels
-        loc='upper center'             # Automatically select best low-density area
+        loc='lower center'             # Automatically select best low-density area
     )
     ax1.tick_params(labelsize=8)
     fig1.savefig("./output_figures/error_fplm_conf.eps", format="eps", dpi=300, bbox_inches="tight")
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     ax1.set_xlim(min_x, max_x)
     ax1.set_ylim(min_y-y_buff, max_y+y_buff)
     ax1.set_xlabel(r"$M_{FP32}$", fontsize=9)
-    ax1.set_ylabel(r"$(M_{FP32}-M_{FPLM32})/M_{FP32}$", fontsize=9)
+    ax1.set_ylabel(r"$(M_{FPLM32}-M_{FP32})/M_{FP32}$", fontsize=9)
     ax1.legend(
         fontsize=7,            # 7-8 pt font size
         frameon=True,          # Keep frame enabled
@@ -140,7 +140,7 @@ if __name__ == "__main__":
         edgecolor='gray',      # Subtle border line
         handlelength=1.5,      # Keep line sample length compact (default is 2.0)
         labelspacing=0.3,      # Compact vertical spacing between labels
-        loc='upper center'             # Automatically select best low-density area
+        loc='lower center'             # Automatically select best low-density area
     )
     ax1.tick_params(labelsize=8)
     fig1.savefig("./output_figures/error_fplm_conf_ratio.eps", format="eps", dpi=300, bbox_inches="tight")
