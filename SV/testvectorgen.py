@@ -51,8 +51,9 @@ def approx_mul_fplm2(a: torch.Tensor, b: torch.Tensor, z) -> torch.Tensor:
     return sign * torch.ldexp(Xp, e_p)
 
 if __name__ == "__main__":
-    base = torch.linspace(start=0.0, end=2.0, steps=1003)
-    A = torch.tile(input=base, dims=(1003,))
+    size = 2003 # actualsize = size^2
+    base = torch.linspace(start=0.0, end=2.0, steps=size)
+    A = torch.tile(input=base, dims=(size,))
     B = torch.sort(input=A)
 
     #print(A)
