@@ -4,3 +4,4 @@ SV/fplm2_conf_working.zip
 *.out
 .venv
 transcript
+*.pdf
