@@ -1,19 +1,21 @@
 import torch
 
-def generate_vector_file(mul1, mul2, prod):
-    a = mul1.to(torch.float16).view(torch.uint16)
-    b = mul2.to(torch.float16).view(torch.uint16)
-    c = prod.to(torch.float16).view(torch.uint16)
+def generate_vector_file(A16, B16, A32, B32):
+    a = A16.to(torch.float16).view(torch.uint16)
+    b = B16.to(torch.float16).view(torch.uint16)
+    c = A32.to(torch.float32).view(torch.uint32)
+    d = B32.to(torch.float32).view(torch.uint32)
+    e = (A32 * B32).to(torch.float32).view(torch.uint32)
 
-    a1 = mul1.to(torch.float16)
-    b1 = mul2.to(torch.float16)
-    c1 = prod.to(torch.float16) 
+    a_d = A16.to(torch.float16)
+    b_d = B16.to(torch.float16)
+    e_d = (A32 * B32).to(torch.float32)
 
 
     with open("./fplm2_testvectors.tv", "w", encoding="utf-8") as file:
 
-        for w1, w2, w3, w4, w5, w6 in zip(a, b, c, a1, b1, c1):
-            file.write(f"{w1.item():4x}_{w2.item():4x}_{w3.item():4x}\t\t// {w4.item():<8} * {w5.item():<8} = {w6.item():<8}\n")
+        for w1, w2, w3, w4, w5, w6, w7, w8 in zip(a, b, c, d, a_d, b_d, e, e_d):
+            file.write(f"{w1.item():04x}_{w2.item():04x}_{w3.item():08x}_{w4.item():08x}_{w7.item():08x}\t\t// {w5.item():<8} * {w6.item():<8} = {w8.item():}\n")
 
         file.close()
 
@@ -34,8 +36,8 @@ def approx_mul_fplm2(a: torch.Tensor, b: torch.Tensor, z) -> torch.Tensor:
     x_a = M_a - 1.0
     x_b = M_b - 1.0
 
-    bXa = torch.where(x_a < 0.5, x_a, 0.5 * (1.0 + x_a) - z * torch.fmod(x_a, 2**(-9)))
-    bXb = torch.where(x_b < 0.5, x_b, 0.5 * (1.0 + x_b) - z * torch.fmod(x_b, 2**(-9)))
+    bXa = torch.where(x_a < 0.5, x_a, 0.5 * (1.0 + x_a))
+    bXb = torch.where(x_b < 0.5, x_b, 0.5 * (1.0 + x_b))
 
     s = bXa + bXb
     carry = (s >= 1.0).to(e_a.dtype)
@@ -49,17 +51,23 @@ def approx_mul_fplm2(a: torch.Tensor, b: torch.Tensor, z) -> torch.Tensor:
     return sign * torch.ldexp(Xp, e_p)
 
 if __name__ == "__main__":
-    a = torch.normal(mean=0.0, std=150.0, size=(1003,1))
-    b = torch.normal(mean=0.0, std=150.0, size=(1003,1))
+    base = torch.linspace(start=0.0, end=2.0, steps=1003)
+    A = torch.tile(input=base, dims=(1003,))
+    B = torch.sort(input=A)
 
-    a=a.to(dtype=torch.float16)
-    b=b.to(dtype=torch.float16)
+    #print(A)
+    #print(B)
 
-    print("\nGetting Results...")
-    fplm2_result = approx_mul_fplm2(a, b, 1)
+    a16=A.to(dtype=torch.float16)
+    b16=B.values.to(dtype=torch.float16)
+    a32=A.to(dtype=torch.float32)
+    b32=B.values.to(dtype=torch.float32)
+
+    #print("\nGetting Results...")
+    #fplm2_result = approx_mul_fplm2(a, b, 1)
 
     print("Generating .tv file...")
-    generate_vector_file(a, b, fplm2_result)
+    generate_vector_file(a16, b16, a32, b32)
 
     print("Done!\n")
 
