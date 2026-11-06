@@ -55,6 +55,9 @@ if __name__ == "__main__":
     base = torch.linspace(start=0.0, end=2.0, steps=size)
     A = torch.tile(input=base, dims=(size,))
     B = torch.sort(input=A)
+    #means = torch.ones(size=(size**2,))
+    #A = torch.normal(mean=means, std=0.3*means)
+    #B = torch.normal(mean=means, std=0.3*means)
 
     #print(A)
     #print(B)

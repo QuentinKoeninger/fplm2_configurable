@@ -48,6 +48,7 @@ if __name__ == "__main__":
     unsorted_data = get_data("sim_results.out")
     sorted_data = unsorted_data[unsorted_data[:, 0].argsort()]
 
+    sorted_data[sorted_data[:, 0] == 0] = 1
     sorted_data_no_zeros = sorted_data[sorted_data[:, 0] != 0]
 
     sorted_error_FPLM32 = -(sorted_data_no_zeros[:, 0] - sorted_data_no_zeros[:, 2])# / sorted_data_no_zeros[:, 0]
@@ -82,36 +83,36 @@ if __name__ == "__main__":
     #print(average_error)
     #print(avg_err_pt)
 
-    fig1, ax1 = plt.subplots(1, 1, figsize=(3.5, 2.5))
-    ax1.plot(sorted_data_no_zeros[:, 0], sorted_error_FPLM32, #label="Simulated Mantissa Error", 
-             linestyle='', marker=',', markersize=1, fillstyle="full", color='tab:purple', alpha=0.1)
-    #ax1.plot(sorted_data_no_zeros[:, 0], cumsum_error_FPLM32 / sorted_error_FPLM32.size, label="Average Mantissa Error", 
-    #         lw=3, color='black', alpha=1)
-    ax1.plot(avg_err_pt, average_error, label="Average Mantissa Error", 
-             lw=1, color='black', alpha=1)
-    ax1.grid(True)
-    min_x = sorted_data_no_zeros[:, 0].min()
-    max_x = sorted_data_no_zeros[:, 0].max()
-    min_y = sorted_error_FPLM32.min()
-    max_y = sorted_error_FPLM32.max()
-    y_buff = 0.05 * (max_y - min_y)
-    ax1.set_xlim(min_x, max_x)
-    ax1.set_ylim(min_y-y_buff, max_y+y_buff)
-    ax1.set_xlabel(r"$M_{FP32}$", fontsize=9)
-    ax1.set_ylabel(r"$M_{FPLM32}-M_{FP32}$", fontsize=9)
-    ax1.legend(
-        fontsize=7,            # 7-8 pt font size
-        frameon=True,          # Keep frame enabled
-        framealpha=0.8,        # Slight transparency to avoid obscuring data behind it
-        edgecolor='gray',      # Subtle border line
-        handlelength=1.5,      # Keep line sample length compact (default is 2.0)
-        labelspacing=0.3,      # Compact vertical spacing between labels
-        loc='lower center'             # Automatically select best low-density area
-    )
-    ax1.tick_params(labelsize=8)
-    fig1.savefig("./output_figures/error_fplm_conf.eps", format="eps", dpi=300, bbox_inches="tight")
-    fig1.savefig("./output_figures/error_fplm_conf.png", format="png", dpi=600, bbox_inches="tight")
-    plt.close(fig1)
+    #fig1, ax1 = plt.subplots(1, 1, figsize=(3.5, 2.5))
+    #ax1.plot(sorted_data_no_zeros[:, 0], sorted_error_FPLM32, #label="Simulated Mantissa Error", 
+    #         linestyle='', marker=',', markersize=1, fillstyle="full", color='tab:purple', alpha=0.1)
+    ##ax1.plot(sorted_data_no_zeros[:, 0], cumsum_error_FPLM32 / sorted_error_FPLM32.size, label="Average Mantissa Error", 
+    ##         lw=3, color='black', alpha=1)
+    #ax1.plot(avg_err_pt, average_error, label="Average Mantissa Error", 
+    #         lw=1, color='black', alpha=1)
+    #ax1.grid(True)
+    #min_x = sorted_data_no_zeros[:, 0].min()
+    #max_x = sorted_data_no_zeros[:, 0].max()
+    #min_y = sorted_error_FPLM32.min()
+    #max_y = sorted_error_FPLM32.max()
+    #y_buff = 0.05 * (max_y - min_y)
+    #ax1.set_xlim(min_x, max_x)
+    #ax1.set_ylim(min_y-y_buff, max_y+y_buff)
+    #ax1.set_xlabel(r"$M_{FP32}$", fontsize=9)
+    #ax1.set_ylabel(r"$M_{FPLM32}-M_{FP32}$", fontsize=9)
+    #ax1.legend(
+    #    fontsize=7,            # 7-8 pt font size
+    #    frameon=True,          # Keep frame enabled
+    #    framealpha=0.8,        # Slight transparency to avoid obscuring data behind it
+    #    edgecolor='gray',      # Subtle border line
+    #    handlelength=1.5,      # Keep line sample length compact (default is 2.0)
+    #    labelspacing=0.3,      # Compact vertical spacing between labels
+    #    loc='lower center'             # Automatically select best low-density area
+    #)
+    #ax1.tick_params(labelsize=8)
+    #fig1.savefig("./output_figures/error_fplm_conf.eps", format="eps", dpi=300, bbox_inches="tight")
+    #fig1.savefig("./output_figures/error_fplm_conf.png", format="png", dpi=600, bbox_inches="tight")
+    #plt.close(fig1)
 
     sorted_error_FPLM32 = sorted_error_FPLM32 / sorted_data_no_zeros[:, 0]
     average_error = average_error / avg_err_pt
@@ -121,7 +122,7 @@ if __name__ == "__main__":
              linestyle='', marker=',', markersize=1, fillstyle="full", color='tab:purple', alpha=0.1)
     #ax1.plot(sorted_data_no_zeros[:, 0], cumsum_error_FPLM32 / sorted_error_FPLM32.size, label="Average Mantissa Error", 
     #         lw=3, color='black', alpha=1)
-    ax1.plot(avg_err_pt, average_error, label="Average Mantissa Error", 
+    ax1.plot(avg_err_pt, average_error, label="Mean Mantissa Error Ratio", 
              lw=1, color='black', alpha=1)
     ax1.grid(True)
     min_x = sorted_data_no_zeros[:, 0].min()
@@ -129,7 +130,7 @@ if __name__ == "__main__":
     min_y = sorted_error_FPLM32.min()
     max_y = sorted_error_FPLM32.max()
     y_buff = 0.05 * (max_y - min_y)
-    ax1.set_xlim(min_x, max_x)
+    ax1.set_xlim(1.0, 2.0)
     ax1.set_ylim(min_y-y_buff, max_y+y_buff)
     ax1.set_xlabel(r"$M_{FP32}$", fontsize=9)
     ax1.set_ylabel(r"$(M_{FPLM32}-M_{FP32})/M_{FP32}$", fontsize=9)
@@ -140,8 +141,9 @@ if __name__ == "__main__":
         edgecolor='gray',      # Subtle border line
         handlelength=1.5,      # Keep line sample length compact (default is 2.0)
         labelspacing=0.3,      # Compact vertical spacing between labels
-        loc='lower center'             # Automatically select best low-density area
+        loc='lower right'             # Automatically select best low-density area
     )
+    print("Mean Mantissa Error Ratio: ", np.sum(sorted_error_FPLM32) / sorted_error_FPLM32.size)
     ax1.tick_params(labelsize=8)
     fig1.savefig("./output_figures/error_fplm_conf_ratio.eps", format="eps", dpi=300, bbox_inches="tight")
     fig1.savefig("./output_figures/error_fplm_conf_ratio.png", format="png", dpi=600, bbox_inches="tight")
