@@ -18,7 +18,7 @@ module fplm2(
 
     assign {Lcout, lp} = {1'b0, La} + {1'b0, Lb} + {4'b0, Lcin};
 
-    assign {Ecout, Ep} = {1'b0, Ea} - 3'b001 + {1'b0, Eb} + {2'b0, Ecin};
+    assign {Ecout, Ep} = {1'b0, Ea} + {1'b0, Eb} + {2'b0, Ecin};
 
     anti_log_fplm2_4bit anti_log_approx(.s({Lcout, lp}), .p(mp), .is_ms_mult(is_ms_mult));
 endmodule
