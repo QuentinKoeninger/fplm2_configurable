@@ -25,11 +25,12 @@ def get_data(file_path): # Reads the output file and grabs the data from it.
             line = line.strip()
 
             a_in, b_in, p_out, f_out = line.split("_")
-            a_in = get_mantissa(a_in[2:5]) * get_exponent(a_in[0:1])
-            b_in = get_mantissa(b_in[2:5]) * get_exponent(b_in[0:1])
+            #print(a_in[0:2] + "_" + a_in[2:6])
+            a_in = get_mantissa(a_in[2:6]) * get_exponent(a_in[0:2])
+            b_in = get_mantissa(b_in[2:6]) * get_exponent(b_in[0:2])
             a_out = a_in * b_in
-            p_out = get_mantissa(p_out[2:5]) * get_exponent(p_out[0:1])
-            f_out = get_mantissa(f_out[2:5]) * get_exponent(f_out[0:1])
+            p_out = get_mantissa(p_out[2:6]) * get_exponent(p_out[0:2])
+            f_out = get_mantissa(f_out[2:6]) * get_exponent(f_out[0:2])
 
             if a_out >= 2.0:
                 a_out = a_out / 2
@@ -46,14 +47,14 @@ if __name__ == "__main__":
 
     data4 = get_data("mult_comparison_7bit.out")
 
-    print(data4)
+    #print(data4)
 
     fig1, ax1 = plt.subplots(1, 1, figsize=(3.5, 2.5))
     ax1.plot(data4[:,0], data4[:,0], label="Actual Mult", 
              lw=1, color='black')
-    ax1.plot(data4[:,0], data4[:, 2]+0.01, label="FPLM2 Mult", 
+    ax1.plot(data4[:,0], data4[:, 2]+0.01, label="FPLM2 Mult", alpha=0.2,
              linestyle='', marker='o', markersize=1, fillstyle="full", color='tab:blue')
-    ax1.plot(data4[:,0], data4[:, 1], label="Approximated Mult", 
+    ax1.plot(data4[:,0], data4[:, 1], label="Approximated Mult", alpha=0.2,
              linestyle='', marker='o', markersize=1, fillstyle="full", color='tab:purple')
     
     ax1.grid(True)
@@ -76,6 +77,43 @@ if __name__ == "__main__":
     )
     ax1.tick_params(labelsize=8)
     fig1.savefig("./mult_4bit.png", format="png", dpi=600, bbox_inches="tight")
+    plt.close(fig1)
+
+    err1 = (data4[:, 1] - data4[:, 0]) / data4[:, 0]
+    err2 = (data4[:, 2] - data4[:, 0]) / data4[:, 0]
+    print(np.mean(np.abs(err1)))
+    print(np.mean(np.abs(err2)))
+    print(np.mean(err1))
+    print(np.mean(err2))
+
+    fig1, ax1 = plt.subplots(1, 1, figsize=(3.5, 2.5))
+    #ax1.plot(data4[:,0], np.mean(np.abs(err1))*np.ones_like(data4[:,0]), label="Average Error Approx", 
+    #         lw=1, color='black')
+    ax1.plot(data4[:,0], err2+0.001, label="FPLM2 Mult", alpha=0.2,
+             linestyle='', marker='o', markersize=1, fillstyle="full", color='tab:blue')
+    ax1.plot(data4[:,0], err1, label="Approximated Mult", alpha=0.2,
+             linestyle='', marker='o', markersize=1, fillstyle="full", color='tab:purple')
+    
+    ax1.grid(True)
+    min_x = 0.9
+    max_x = 2.1
+    min_y = np.min(err2) - 0.2
+    max_y = np.max(err2) + 0.2
+    ax1.set_xlim(min_x, max_x)
+    ax1.set_ylim(min_y, max_y)
+    ax1.set_xlabel(r"a*b", fontsize=9)
+    ax1.set_ylabel(r"approx(a*b)", fontsize=9)
+    ax1.legend(
+        fontsize=7,            # 7-8 pt font size
+        frameon=True,          # Keep frame enabled
+        framealpha=0.8,        # Slight transparency to avoid obscuring data behind it
+        edgecolor='gray',      # Subtle border line
+        handlelength=1.5,      # Keep line sample length compact (default is 2.0)
+        labelspacing=0.3,      # Compact vertical spacing between labels
+        loc='lower right'             # Automatically select best low-density area
+    )
+    ax1.tick_params(labelsize=8)
+    fig1.savefig("./mult_4bit_err.png", format="png", dpi=600, bbox_inches="tight")
     plt.close(fig1)
 
 

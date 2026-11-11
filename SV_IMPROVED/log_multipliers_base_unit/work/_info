@@ -13,6 +13,10 @@ R0
 R1
 R0
 R1
+R0
+R1
+R0
+R1
 Z2 !s12c _opt1
 R1
 R2
@@ -64,10 +68,10 @@ R3
 T_opt2
 !i145 1
 !i144 0
-Z12 !s110 1794261977
-VD;gMjRfOnUKf_PKMz3ha10
+Z12 !s110 1794411957
+VU7UQmiTUW1DjM?d0XFTb92
 R4
-=1-00be43bd66e1-6af243d9-d7dad-2baa
+=1-00be43bd66e1-6af48db5-90c7b-290c
 R1
 R5
 R6
@@ -96,7 +100,7 @@ Z17 OL;L;2025.3;82
 r1
 !s85 0
 31
-Z18 !s108 1794261977.000000
+Z18 !s108 1794411957.000000
 Z19 !s107 ../anti_log_approx_methods/anti_log_fplm2_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit_tb.sv|../anti_log_approx_methods/anti_log_approx_4bit.sv|../log_approx_methods/log_fplm2_4bit.sv|../log_approx_methods/log_approx_4bit_tb.sv|../log_approx_methods/log_approx_4bit.sv|proposed_lm.sv|log_mult_comparisons_tb.sv|fplm2.sv|
 Z20 !s90 -lint|fplm2.sv|log_mult_comparisons_tb.sv|proposed_lm.sv|../log_approx_methods/log_approx_4bit.sv|../log_approx_methods/log_approx_4bit_tb.sv|../log_approx_methods/log_fplm2_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit_tb.sv|../anti_log_approx_methods/anti_log_fplm2_4bit.sv|
 !i113 0
@@ -132,11 +136,11 @@ R13
 R14
 R12
 !i10b 1
-!s100 6:>Eh]HlUU9:ckm?YCCEL0
-I]g;A>IF=9P][YzHWKZ`^i3
+!s100 >H1_gkDZPBRbPmOcDcZFf2
+IjEb2@?@e0Rc>ga6MdC75;2
 S1
 R3
-w1794261970
+w1794411947
 8../anti_log_approx_methods/anti_log_fplm2_4bit.sv
 F../anti_log_approx_methods/anti_log_fplm2_4bit.sv
 !i122 0
