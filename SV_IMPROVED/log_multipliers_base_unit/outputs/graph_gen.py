@@ -151,12 +151,17 @@ if __name__ == "__main__":
     fig1.savefig("./mult_8bit.png", format="png", dpi=600, bbox_inches="tight")
     plt.close(fig1)
 
+    print()
     err1 = (data8[:, 1] - data8[:, 0]) / data8[:, 0]
     err2 = (data8[:, 2] - data8[:, 0]) / data8[:, 0]
     print(np.mean(np.abs(err1)))
     print(np.mean(np.abs(err2)))
     print(np.mean(err1))
     print(np.mean(err2))
+
+    
+    print()
+    print(max(err1))
 
     fig1, ax1 = plt.subplots(1, 1, figsize=(3.5, 2.5))
     #ax1.plot(data8[:,0], np.mean(np.abs(err1))*np.ones_like(data8[:,0]), label="Average Error Approx", 

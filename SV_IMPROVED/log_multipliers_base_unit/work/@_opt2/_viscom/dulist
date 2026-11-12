@@ -1,7 +1,0 @@
-1 15 log_approx_4bit 4 fast 92 /home/quentinkoeninger/Desktop/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit/work 1 0 0 0 118 0
-1 20 anti_log_approx_4bit 4 fast 92 /home/quentinkoeninger/Desktop/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit/work 1 0 0 0 124 0
-1 11 proposed_lm 4 fast 92 /home/quentinkoeninger/Desktop/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit/work 1 0 0 0 54 0
-1 14 log_fplm2_4bit 4 fast 92 /home/quentinkoeninger/Desktop/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit/work 1 0 0 0 13 0
-1 19 anti_log_fplm2_4bit 4 fast 92 /home/quentinkoeninger/Desktop/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit/work 1 0 0 0 63 0
-1 5 fplm2 4 fast 92 /home/quentinkoeninger/Desktop/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit/work 1 0 0 0 64 0
-1 23 log_mult_comparisons_tb 4 fast 92 /home/quentinkoeninger/Desktop/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit/work 1 0 0 0 358 0
