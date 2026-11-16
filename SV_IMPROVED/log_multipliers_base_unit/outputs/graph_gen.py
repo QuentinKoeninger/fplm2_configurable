@@ -174,8 +174,8 @@ if __name__ == "__main__":
     ax1.grid(True)
     min_x = 0.9
     max_x = 2.1
-    min_y = np.min(err2) - 0.2
-    max_y = np.max(err2) + 0.2
+    min_y =  (np.min(err1) if (np.min(err1) < np.min(err2)) else np.min(err2)) - 0.2
+    max_y = (np.max(err1) if (np.max(err1) > np.max(err2)) else np.max(err2)) + 0.2
     ax1.set_xlim(min_x, max_x)
     ax1.set_ylim(min_y, max_y)
     ax1.set_xlabel(r"a*b", fontsize=9)
