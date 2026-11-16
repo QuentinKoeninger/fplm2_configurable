@@ -87,6 +87,9 @@ if __name__ == "__main__":
     print(np.mean(err1))
     print(np.mean(err2))
 
+    print()
+    print(np.argmin(err1))
+
     fig1, ax1 = plt.subplots(1, 1, figsize=(3.5, 2.5))
     #ax1.plot(data4[:,0], np.mean(np.abs(err1))*np.ones_like(data4[:,0]), label="Average Error Approx", 
     #         lw=1, color='black')
@@ -98,8 +101,8 @@ if __name__ == "__main__":
     ax1.grid(True)
     min_x = 0.9
     max_x = 2.1
-    min_y = np.min(err2) - 0.2
-    max_y = np.max(err2) + 0.2
+    min_y =  (np.min(err1) if (np.min(err1) < np.min(err2)) else np.min(err2)) - 0.2
+    max_y = (np.max(err1) if (np.max(err1) > np.max(err2)) else np.max(err2)) + 0.2
     ax1.set_xlim(min_x, max_x)
     ax1.set_ylim(min_y, max_y)
     ax1.set_xlabel(r"a*b", fontsize=9)
@@ -161,7 +164,7 @@ if __name__ == "__main__":
 
     
     print()
-    print(max(err1))
+    print(np.argmin(err1))
 
     fig1, ax1 = plt.subplots(1, 1, figsize=(3.5, 2.5))
     #ax1.plot(data8[:,0], np.mean(np.abs(err1))*np.ones_like(data8[:,0]), label="Average Error Approx", 
