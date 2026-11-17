@@ -1,4 +1,4 @@
-// Computes the logarithm approximation for a 4-bit floating point value
+// Computes the anti-logarithm approximation for a 4-bit floating point value
 
 module anti_log_fplm2_4bit (
     input logic [4:0] s,    // Input mantissa (no leading 1)
