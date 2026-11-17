@@ -71,9 +71,9 @@ module proposed_lm_conf_16(
     assign Eb[0] = mode[1] ? (mode[0] ? b[16:14] : {b[16:15], 1'b0}) : (mode[0] ? 3'b0 : b[6:4]);
 
     // Exponent Carry Inputs    
-    assign Ecin[2] = mode[1] ? Ecout[1] : (mode[0] ? Ecout[1] : 2'b0);
-    assign Ecin[1] = mode[1] ? Ecout[0] : (mode[0] ? {Lcout[2], 1'b0} : 2'b0);
-    assign Ecin[0] = mode[1] ? (mode[0] ? {1'b0, Lcout[2]} : {Lcout[2], 1'b0}) : 2'b0;
+    assign Ecin[2] = mode[1] ? Ecout[1] : (mode[0] ? Ecout[1] : {1'b0, Lcout[2]});
+    assign Ecin[1] = mode[1] ? Ecout[0] : (mode[0] ? {Lcout[2], 1'b0} : {1'b0, Lcout[1]});
+    assign Ecin[0] = mode[1] ? (mode[0] ? {1'b0, Lcout[2]} : {Lcout[2], 1'b0}) : (mode[0] ? 2'b0 : {1'b0, Lcout[0]});
 
     // Exponent Bias Inputs (dependent on mode), already two's complemented
     assign Ebias[2] = (mode[1] | mode[0]) ? 5'b11100 : 5'b11101;
@@ -83,8 +83,8 @@ module proposed_lm_conf_16(
     proposed_lm lm [2:0] (.ma, .mb, .Ea, .Eb, .Ecin, .Lcin, .Ebias, .mp, .Ep, .Ecout, .Lcout);
 
     assign p = mode[1] ? (mode[0] ? {(a[23] ^ b[23]), Ep[2], Ep[1], Ep[0], mp[2], mp[1], mp[0], 2'b0} : 
-                            {(a[23] ^ b[23]), Ep[2], Ep[1], Ep[0][2:1], mp[2], mp[1][3:1], 8'b0}) :
-                        (mode[0] ? {(a[23] ^ b[23]), Ep[2], Ep[1][2:1], mp[2], mp[1], mp[0][3:2]} :
-                            {(a[23] ^ b[23]), Ep[2], Mp[2], (a[15] ^ b[15]), Ep[1], Mp[1], (a[7] ^ b[7]), Ep[0], Mp[0]});
+                                {(a[23] ^ b[23]), Ep[2], Ep[1], Ep[0][2:1], mp[2], mp[1][3:1], 8'b0}) :
+                        (mode[0] ? {(a[23] ^ b[23]), Ep[2], Ep[1][2:1], mp[2], mp[1], mp[0][3:2], 8'b0} :
+                                {(a[23] ^ b[23]), Ep[2], mp[2], (a[15] ^ b[15]), Ep[1], mp[1], (a[7] ^ b[7]), Ep[0], mp[0]});
 
 endmodule
