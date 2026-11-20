@@ -1,14 +1,17 @@
 m255
 K4
 z2
-Z0 !s99 nomlopt
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
 R0
+R1
 R0
-R0
-R0
-R0
-Z1 !s12c _opt2
-R0
+R1
+R1
+R1
+R1
+R1
+R1
 R1
 R0
 R1
@@ -29,21 +32,23 @@ R1
 R0
 R1
 R0
+R1
 R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
+R1
 !s11f MIXED_VERSIONS
-R1
 R0
 R1
 R0
@@ -67,12 +72,13 @@ R1
 R0
 R1
 R0
+R1
 Z2 !s12c _opt1
-R0
+R1
 R2
-R0
+R1
 !s12c _opt
-R0
+R1
 13
 !s112 1.1
 !i10d 8192
@@ -87,7 +93,7 @@ T_opt
 V?FiF`7E=eclX`jSb4hGS[1
 Z4 04 23 4 work log_mult_comparisons_tb fast 0
 =1-00be43bd66e1-6af22c6a-b17a0-a0e64
-R0
+R1
 Z5 !s12f OEM100
 Z6 !s12b OEM100
 Z7 !s124 OEM10U9 
@@ -104,7 +110,7 @@ T_opt1
 Vo>0;bU@UXK8c8mh_0SE4G1
 R4
 =1-00be43bd66e1-6af22fbb-9478a-19a6
-R0
+R1
 R5
 R6
 R7
@@ -115,300 +121,318 @@ n@_opt1
 R11
 R3
 T_opt2
-!s110 1795132243
-V[g85cgTfMRe95^5<:<E6?1
+!i145 1
+!i144 0
+Z12 !s110 1795195936
+V^>zUo[dDC:fT:zlKOQ_:[1
 04 12 4 work tb_conf_comp fast 0
-=1-ac74b186c324-6aff8b52-3de-e74c
-!s124 OEM100
+=1-00be43bd66e1-6b008420-9da4b-3e9e
+R1
+R5
+R6
+!s124 OEM10U27 
+R8
 R9
 R10
 n@_opt2
-OL;O;2021.3;73
+R11
 vanti_log_approx_4bit
-Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z13 !s110 1795132242
+Z13 2fplm2.sv|log_mult_comparisons_tb.sv|proposed_lm.sv|tb_conf_comp.sv|../log_approx_methods/log_approx_4bit.sv|../log_approx_methods/log_approx_4bit_tb.sv|../log_approx_methods/log_fplm2_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit_tb.sv|../anti_log_approx_methods/anti_log_fplm2_4bit.sv
+Z14 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+R12
 !i10b 1
 !s100 @WVR9FfALETgcGF4lPgPU2
 ILO;l:M8VMI@4`CBeS]ScA0
 S1
-Z14 dC:/Users/qkoen/Desktop/GitHub/fplm2_configurable/SV_IMPROVED/log_multipliers_base_unit
-w1793846984
+R3
+Z15 w1794247740
 8../anti_log_approx_methods/anti_log_approx_4bit.sv
 F../anti_log_approx_methods/anti_log_approx_4bit.sv
 !i122 0
 L0 3 10
-Z15 VDg1SIo80bB@j0V0VzS_@n1
-Z16 OL;L;2021.3;73
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OL;L;2025.3;82
 r1
 !s85 0
 31
-Z17 !s108 1795132242.000000
-Z18 !s107 ../anti_log_approx_methods/anti_log_fplm2_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit_tb.sv|../anti_log_approx_methods/anti_log_approx_4bit.sv|../log_approx_methods/log_fplm2_4bit.sv|../log_approx_methods/log_approx_4bit_tb.sv|../log_approx_methods/log_approx_4bit.sv|tb_conf_comp.sv|proposed_lm.sv|log_mult_comparisons_tb.sv|fplm2.sv|
-Z19 !s90 -lint|fplm2.sv|log_mult_comparisons_tb.sv|proposed_lm.sv|tb_conf_comp.sv|../log_approx_methods/log_approx_4bit.sv|../log_approx_methods/log_approx_4bit_tb.sv|../log_approx_methods/log_fplm2_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit_tb.sv|../anti_log_approx_methods/anti_log_fplm2_4bit.sv|
+Z18 !s108 1795195936.000000
+Z19 !s107 ../anti_log_approx_methods/anti_log_fplm2_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit_tb.sv|../anti_log_approx_methods/anti_log_approx_4bit.sv|../log_approx_methods/log_fplm2_4bit.sv|../log_approx_methods/log_approx_4bit_tb.sv|../log_approx_methods/log_approx_4bit.sv|tb_conf_comp.sv|proposed_lm.sv|log_mult_comparisons_tb.sv|fplm2.sv|
+Z20 !s90 -lint|fplm2.sv|log_mult_comparisons_tb.sv|proposed_lm.sv|tb_conf_comp.sv|../log_approx_methods/log_approx_4bit.sv|../log_approx_methods/log_approx_4bit_tb.sv|../log_approx_methods/log_fplm2_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit.sv|../anti_log_approx_methods/anti_log_approx_4bit_tb.sv|../anti_log_approx_methods/anti_log_fplm2_4bit.sv|
 !i113 0
-Z20 o-lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z21 o-lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R10
 vanti_log_approx_4bit_tb
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 6D[kn:zf8[g;JJ[0jG45z0
 I;UEo:@7BhGFb@N:6FWCVF0
 S1
-R14
-w1793849226
+R3
+R15
 8../anti_log_approx_methods/anti_log_approx_4bit_tb.sv
 F../anti_log_approx_methods/anti_log_approx_4bit_tb.sv
 !i122 0
 L0 3 41
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vanti_log_fplm2_4bit
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 >H1_gkDZPBRbPmOcDcZFf2
 IjEb2@?@e0Rc>ga6MdC75;2
 S1
-R14
-w1794952108
+R3
+w1794929999
 8../anti_log_approx_methods/anti_log_fplm2_4bit.sv
 F../anti_log_approx_methods/anti_log_fplm2_4bit.sv
 !i122 0
-Z21 L0 3 11
-R15
+Z22 L0 3 11
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vfplm2
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 LicEK33B4>;M<HT[0Kh?@0
 I9>an6HV1YOA?zBA5i4WkI1
 S1
-R14
-Z22 w1795132222
-Z23 8fplm2.sv
-Z24 Ffplm2.sv
+R3
+Z23 w1795195601
+Z24 8fplm2.sv
+Z25 Ffplm2.sv
 !i122 0
 L0 3 25
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vfplm2_conf_16
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 kj?g9Go0mP3a5X_6hS6Xo3
 I0Tz]d@2>fbeNSLSM?JKJk3
 S1
-R14
-R22
+R3
 R23
 R24
+R25
 !i122 0
 L0 31 91
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vlog_approx_4bit
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 UDJZz;iS:^[edN?YoJ1:>1
 IFacDo?iEBI=oR9SGL@m?R2
 S1
-R14
-w1793821966
+R3
+R15
 8../log_approx_methods/log_approx_4bit.sv
 F../log_approx_methods/log_approx_4bit.sv
 !i122 0
-R21
-R15
+R22
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vlog_approx_4bit_tb
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 KomAfei5;P5l4E9SA=ESY0
 IFim6:;6T5d^`Ch;<fOGOn0
 S1
-R14
-w1793827195
+R3
+R15
 8../log_approx_methods/log_approx_4bit_tb.sv
 F../log_approx_methods/log_approx_4bit_tb.sv
 !i122 0
 L0 3 40
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vlog_fplm2_4bit
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 _[2IL@RQAZd^I[f0b;3:b2
 IV`ZRQ;z>Q5fK1EQgCoGzH0
 S1
-R14
-w1794418256
+R3
+w1794255208
 8../log_approx_methods/log_fplm2_4bit.sv
 F../log_approx_methods/log_fplm2_4bit.sv
 !i122 0
 L0 3 9
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vlog_mult_comparisons_tb
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 :e?UPD_adoed^Z]RMk`OY1
 I^j5PjC>MG[LK]1WSGRlW^3
 S1
-R14
-w1794519489
+R3
+w1794856659
 8log_mult_comparisons_tb.sv
 Flog_mult_comparisons_tb.sv
 !i122 0
 L0 3 137
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vproposed_lm
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 fY[bWNbbWko>m4Y4TCM=z2
 I]kFMoeo;mk7XbV9bJ86D01
 S1
-R14
-Z25 w1795039560
-Z26 8proposed_lm.sv
-Z27 Fproposed_lm.sv
+R3
+Z26 w1794942819
+Z27 8proposed_lm.sv
+Z28 Fproposed_lm.sv
 !i122 0
 L0 3 23
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vproposed_lm_conf_16
-R12
 R13
+R14
+R12
 !i10b 1
 !s100 ?kA_^2oJPk`Q4<fBMmbkn0
 IHRRSOAbI6K[h2n0S<YBE11
 S1
-R14
-R25
+R3
 R26
 R27
+R28
 !i122 0
 L0 28 63
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10
 vtb_conf_comp
-R12
 R13
-!i10b 1
-!s100 Od2^<1ZM2KHjZWER4Lei10
-IB8dh9iCED<YeHR45`8VDb3
-S1
 R14
-w1795131852
+R12
+!i10b 1
+!s100 >Cf3IKZ7OVJm7VQAN@0^Y0
+I<>RUefMAgFLnU9oiD12WO1
+S1
+R3
+w1795195934
 8tb_conf_comp.sv
 Ftb_conf_comp.sv
 !i122 0
 L0 3 69
-R15
 R16
+R17
 r1
 !s85 0
 31
-R17
 R18
 R19
-!i113 0
 R20
+!i113 0
+R21
 R10

@@ -62,7 +62,7 @@ module tb_conf_comp;
             a[23:2] = {10'b0011111111, i[17:9], 3'b0};
             b[23:2] = {10'b0100000000, i[8:0], 3'b0};
             #20
-            $fdisplay(handle3, "%b_%b_%b", a[22:8], b[22:8], p_lm[22:8], p_fplm2[22:8]);
+            $fdisplay(handle3, "%b_%b_%b_%b", a[22:0], b[22:0], p_lm[22:0], p_fplm2[22:0]);
         end
 
         $stop;
