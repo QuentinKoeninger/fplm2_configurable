@@ -57,7 +57,7 @@ module proposed_lm_conf_16(
     assign mb[0] = mode[1] ? (mode[0] ? b[5:2] : 4'b0) : (mode[0] ? {b[9:8], 2'b0} : b[3:0]);
 
     // Mantissa Carry Inputs
-    assign Lcin[2] = mode[1] ? Lcout[1] : (mode[0] ? Lcout[1] : 1'b0);
+    assign Lcin[2] = (|mode) ? Lcout[1] : 1'b0;
     assign Lcin[1] = mode[0] ? Lcout[0] : 1'b0;
     assign Lcin[0] = 1'b0;
 

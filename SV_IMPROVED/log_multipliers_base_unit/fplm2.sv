@@ -26,7 +26,8 @@ module fplm2(
     anti_log_fplm2_4bit anti_log_approx(.s({Lcout, lp}), .p(mp), .is_ms_mult(is_ms_mult));
 endmodule
 
-// I think this works now...
+// I think this works now ... 11/19
+// It didn't ... 11/20
 // Module supports 1 24' cfloat, 1 16' bfloat, 1 16' float, or 3 8' cfloat operation(s) per input
 module fplm2_conf_16(
     input [23:0] a, b,  // Two input number(s)s
@@ -69,7 +70,7 @@ module fplm2_conf_16(
                     (mode[0] ? {b[10:8], 2'b0} : {1'b1, b[3:0]});
 
     // Mantissa Carry Inputs
-    assign Lcin[2] = mode[1] ? Lcout[1] : (mode[0] ? Lcout[1] : 1'b0);
+    assign Lcin[2] = (|mode) ? Lcout[1] : 1'b0;
     assign Lcin[1] = mode[0] ? Lcout[0] : 1'b0;
     assign Lcin[0] = 1'b0;
 
@@ -104,14 +105,14 @@ module fplm2_conf_16(
     assign ma_1[0] = mode[1] ? (mode[0] ? a[13] : a[14]) : 
                     (mode[0] ? a[17] : a[3]);
 
-    assign mb_1[2] = mode[1] ? (mode[0] ? a[13] : a[14]) : 
-                    (mode[0] ? a[17] : a[19]);
-    assign mb_1[1] = mode[1] ? (mode[0] ? a[13] : a[14]) : 
-                    (mode[0] ? a[17] : a[11]);
-    assign mb_1[0] = mode[1] ? (mode[0] ? a[13] : a[14]) : 
-                    (mode[0] ? a[17] : a[3]);
+    assign mb_1[2] = mode[1] ? (mode[0] ? b[13] : b[14]) : 
+                    (mode[0] ? b[17] : b[19]);
+    assign mb_1[1] = mode[1] ? (mode[0] ? b[13] : b[14]) : 
+                    (mode[0] ? b[17] : b[11]);
+    assign mb_1[0] = mode[1] ? (mode[0] ? b[13] : b[14]) : 
+                    (mode[0] ? b[17] : b[3]);
 
-    fplm2 lm [2:0] (.ma, .mb, .Ea, .Eb, .Ecin, .Lcin, .Ebias, .is_ms_mult, .ma_1, .mb_1, .mp, .Ep, .Ecout, .Lcout);
+    fplm2 fplm2_dut [2:0] (.ma, .mb, .Ea, .Eb, .Ecin, .Lcin, .Ebias, .is_ms_mult, .ma_1, .mb_1, .mp, .Ep, .Ecout, .Lcout);
 
     assign p = mode[1] ? (mode[0] ? {(a[23] ^ b[23]), Ep[2], Ep[1], Ep[0], mp[2], mp[1], mp[0], 2'b0} : 
                                 {(a[23] ^ b[23]), Ep[2], Ep[1], Ep[0][2:1], mp[2], mp[1][3:1], 8'b0}) :
